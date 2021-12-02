@@ -1,0 +1,17 @@
+  .slider-container  {
+
+    width: 100%;
+    background-color: #ddf0ff;
+    padding-bottom: 2rem;
+  }
+  .img-y {
+    
+    width: 80%;
+    height: 20%;
+    object-fit: cover;
+  }
+ 
+  .title-slider {
+    margin: auto;
+    text-align: center;
+  }

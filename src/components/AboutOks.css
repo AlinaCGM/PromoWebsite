@@ -1,0 +1,129 @@
+.extrapage-container {
+    background-color: #f8fbfc;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    margin: auto;
+    height: auto;
+    color: black;
+    padding: 2rem 2rem;
+    overflow-x: hidden;
+}
+.information-about {
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+    color: rgb(43, 39, 39);
+    letter-spacing: 0.5px;
+    line-height: 2rem; 
+}
+
+.colum-about{
+    border: 1px solid #c1c8ca;
+    text-align: center;
+    padding: 2rem;
+} 
+ .image-about1, .image-about2 {
+    width: 50%;
+  
+ 
+ } 
+.colum-img {
+    background-color: #af9ba4;
+}
+
+
+ .btn-about {
+     width:100px;
+     border: 10px solid black;
+ }
+
+
+
+ @media (min-width: 300px) and (max-width:650px) {
+    .large {
+        display:none;
+    }
+    .information {
+       
+        margin-left: 20%;
+        font-size: 12px;
+        font-family: 'Playfair Display', serif;;
+        color: rgb(43, 39, 39);
+        letter-spacing: 0.5px;
+        line-height: 1.5rem; 
+    }
+    .image-extra {
+        margin-left: 20%;
+        width: 50%;
+        height:auto;
+       
+        
+    }
+ 
+    
+}  
+ h3 {
+    font-family: 'Playfair Display', serif;
+ }
+@media (min-width: 651px)  {
+    .small {
+        display:none;
+    }
+    .information {
+        /* margin: 1rem; */
+        font-size: 12px;
+        font-family: 'Playfair Display', serif;
+        color: rgb(43, 39, 39);
+        letter-spacing: 0.5px;
+        line-height: 1.5rem; 
+    }
+    .image-about {
+        width: 50%;
+        height:auto;
+        margin-top:3rem;
+    }
+ 
+    
+}  
+@media (min-width: 950px)  {
+    .small {
+        display:none;
+    }
+    .information {
+        /* margin: 5rem; */
+        font-size: 14px;
+        font-family: 'Playfair Display', serif;
+        color: rgb(43, 39, 39);
+        letter-spacing: 0.5px;
+        line-height: 1.5rem; 
+    }
+    .image-extra {
+        width: 70%;
+        height:auto;
+        margin-top:1rem;
+    }
+ 
+    
+}  
+@media (min-width: 1400px)  {
+    .small {
+        display:none;
+    }
+    .information {
+        /* margin: 2rem 8rem; */
+        
+        font-size: 16px;
+        font-family: 'Playfair Display', serif;
+        color: rgb(43, 39, 39);
+        letter-spacing: 0.5px;
+        line-height: 2rem; 
+    }
+    .image-extra {
+        width: 60%;
+        height:auto;
+        margin-top:1rem;
+    }
+ 
+    
+}  
+ 
