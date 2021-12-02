@@ -1,5 +1,5 @@
 .extrapage-container {
-    background-color: #f8fbfc;
+    background-color: #d8deeb;
     position: relative;
     z-index: 1;
     width: 100%;
@@ -14,7 +14,8 @@
     font-family: 'Playfair Display', serif;
     color: rgb(43, 39, 39);
     letter-spacing: 0.5px;
-    line-height: 2rem; 
+    line-height: 2rem;  
+    padding: 2rem;
 }
 
 .colum-about{
@@ -22,13 +23,21 @@
     text-align: center;
     padding: 2rem;
 } 
- .image-about1, .image-about2 {
+ /* .image-about1, .image-about2 {
     width: 50%;
   
  
- } 
-.colum-img {
-    background-color: #af9ba4;
+ }  */
+.colum-img1 {
+    background-image: url(../images/woman4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.colum-img2 {
+    background-image: url(../images/woman2.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 

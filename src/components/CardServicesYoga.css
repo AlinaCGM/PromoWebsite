@@ -6,13 +6,13 @@
             box-sizing: border-box;
   }
   .cardservices2-box {
-    background-color: #8e9aaf;
+    background-color: #232a3a;
   }
-  h1{
+  .yoga-title{
     font-size: 2.5rem;
     font-family: 'Montserrat';
     font-weight: normal;
-    color: #444;
+    color: rgb(245, 236, 236);
     text-align: center;
     margin: 2rem 0;
   }

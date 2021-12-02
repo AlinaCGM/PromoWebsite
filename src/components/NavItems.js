@@ -9,15 +9,16 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "About Us",
-      path: "./about",
+      title: "Services",
+      path: "./services",
       nName: "nav-item",
       sName: "sidebar-item",
+      
     },
     {
       id: 3,
-      title: "Services",
-      path: "./services",
+      title: "About Us",
+      path: "./about",
       nName: "nav-item",
       sName: "sidebar-item",
     },
@@ -30,8 +31,8 @@ export const navItems = [
     },
     {
       id: 5,
-      title: "Booking",
-      path: "./booking",
+      title: "Gallery",
+      path: "./gallery",
       nName: "nav-item",
       sName: "sidebar-item",
     },

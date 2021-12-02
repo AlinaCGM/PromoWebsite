@@ -21,29 +21,20 @@ function CardServicesYoga() {
 
 <div id="" className=" cardservices2-box">
 <div className="wrapper">
-  <h1>Hälsokonsultation</h1>
+  <h1 className="yoga-title">SOME TITLE</h1>
   <div className="row">
 			<div className="col-12  col-md-6 col-lg-4  d-flex justify-content-between mb-5 " ontouchstart="this.classList.toggle('hover');">
 				<div className="container">
 					<div className="front" > 
 					<img className="services-2" src="../images/cs1.jpg"  path="/about" alt=""/>
 						<div className="inner">
-							<p>Klassisk yoga</p>
+							<p>Classic</p>
               <span>Lorem ipsum</span>
 						</div>
 					</div>
 					<div className="back">
 						<div className="inner">
-						  <p>Yogaklass som baseras på klassisk yoga vilken är grunden till alla yogaskolor som finns idag.
-						   Du är välkommen oavsett om du är en erfaren yogi eller nybörjare. Vi anpassar positionerna (asanas) 
-						   till din kroppstyp, dina möjligheter och eventuella problem. Hos oss skadar yoga ingen utan används 
-						   som terapi. Varje klass börjar vi med att fokusera på oss själva med hjälp av en kortare meditation 
-						   och andningsövning. Sedan utövar vi asanas – yogaställningar, sedan fortsätter vi med andningsövningar
-						    och avslutar alltid med en djupgående avslappning eller enklare meditation.  Om du är i speciellt behov 
-							att praktisera yoga i egen takt, då rekommenderar vi att du väljer den privata varianten där vi sätter 
-							upp ett program speciellt för dig som vi sedan kan justera enligt din utveckling och dina behov.
-
-</p>
+						  <p>Lorem ipsum dolor sit amet, consectetur </p>
 						</div>
 					</div>
 				</div>

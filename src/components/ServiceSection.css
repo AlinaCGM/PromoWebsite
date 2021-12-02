@@ -18,11 +18,24 @@
 }
 
 .img_first {
-    width: 60%;
+    
     position: absolute;
-    left: 5%;
-    bottom: 5%;
+    left: 30%;
+    bottom: 15%;
     float: left;
+}
+
+.one {
+    width: 25%;
+}
+.two {
+    width: 37%;
+}
+.three {
+    width: 30%;
+}
+.four {
+    width: 23%;
 }
 /* 
 @media (min-width: 300px) {

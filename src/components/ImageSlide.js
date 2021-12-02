@@ -9,7 +9,7 @@ export default class Fade extends Component {
       dots: false,
       fade: true,
       infinite: true,
-      speed: 3000,
+      speed: 2000,
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
@@ -17,7 +17,7 @@ export default class Fade extends Component {
     };
     return (
       <div className="slider-container ">
-      <h3 className="title-slider p-5">Уроки йоги в нашей студии холистического здоровья в Стокгольме или онлайн</h3>
+      <h3 className="title-slider p-5">Lorem Ipsum</h3>
       <div className="image-slider ">
          
         <Slider {...settings}>

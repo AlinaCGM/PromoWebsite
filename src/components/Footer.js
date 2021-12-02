@@ -16,11 +16,11 @@ function Footer() {
           <div class="footer-link-items">
             <h2>Följ oss</h2>
         
-            <a href="https://www.facebook.com/Aglo-Bygg-Entreprenad-AB-108904863917871" target="_blank" rel="noreferrer" >Facebook</a>
-            <a href="https://www.linkedin.com/company/aglo-bygg" target="_blank" rel="noreferrer" >LinkedIn</a>
-            <a href="https://www.instagram.com/aglobygg/" target="_blank" rel="noreferrer" >Instagram</a>
+            <a href="/" target="_blank" rel="noreferrer" >Facebook</a>
+            <a href="/" target="_blank" rel="noreferrer" >LinkedIn</a>
+            <a href="/" target="_blank" rel="noreferrer" >Instagram</a>
             <div class="footer-logo">
-            <i class="fas fa-phone-alt phone">+46762413558 </i> 
+            <i class="fas fa-phone-alt phone">+467000000 </i> 
             <img className="img_logo " src="/images/logo 2.jpg" path="/about" alt=""/>
           </div>
           </div>
@@ -35,9 +35,9 @@ function Footer() {
          
           <small class="website-rights">NexTek © 2021</small>
           <div class="social-icons">
-          <a href="https://www.facebook.com/Aglo-Bygg-Entreprenad-AB-108904863917871" class="social-icon-link facebook" target="_blank" rel="noreferrer" ><i class="fab fa-facebook-square"></i></a>
-            <a href="https://www.linkedin.com/company/aglo-bygg"class="social-icon-link linkedin" target="_blank" rel="noreferrer" ><i class="fab fa-linkedin" /></a>
-            <a href="https://www.instagram.com/aglobygg/"class="social-icon-link linkedin" target="_blank" rel="noreferrer" ><i class="fab fa-instagram"></i></a>
+          <a href="/" class="social-icon-link facebook" target="_blank" rel="noreferrer" ><i class="fab fa-facebook-square"></i></a>
+            <a href="/" target="_blank" rel="noreferrer" ><i class="fab fa-linkedin" /></a>
+            <a href="/"class="social-icon-link linkedin" target="_blank" rel="noreferrer" ><i class="fab fa-instagram"></i></a>
             
           </div>
         </div>

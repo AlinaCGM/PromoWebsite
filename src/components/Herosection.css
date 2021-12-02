@@ -26,7 +26,11 @@
 } */
  .hero-title {
      position: absolute;
-     color: rgb(66, 63, 63);
+     color: rgb(24, 64, 87);
      top:10%;
      left: 10%;
+     font-size: 72px;
+     font-weight: bold;
+     font-family: 'Annie Use Your Telescope', cursive;
+     font-family: 'Annie Use Your Telescope', cursive;
  }

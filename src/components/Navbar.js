@@ -54,7 +54,7 @@ function Navbar() {
       <nav className={navbar ? "navbar active" : "navbar"}>
         <Link to="/" className="navbar-logo" onClick={() => setSidebar(false)}>
           <Icons.FaPiedPiper />
-          Ayurvilla
+          LOGO
         </Link>
         {!mobile && (
           <ul className="nav-items">

@@ -23,35 +23,36 @@ function AboutOks() {
 
 
 <div class="row pictures justify-content-center ">
-            <div class="col-12 col-md-6 col-lg-4 colum-about colum-img  ">
-            <img className="image-about1" src="../images/oks.jpg"  path="/about" alt=""/>
+            <div class="col-12 col-md-6 col-lg-4 colum-about colum-img1  ">
+            {/* <img className="image-about1" src="../images/woman1.jpg"  path="/about" alt=""/> */}
            </div> 
            <div class="col-12 col-md-6 col-lg-4 colum-about  ">
-           <p className="information-about fs-5 text-center">Hälsokonsultation
-Inga allmänna råd fungerar lika bra för alla, därför behöver varje person undersökas och behandlas individuellt för att uppnå bästa resultat.
- Som undersökningsmetod använder vi pulsdiagnostik, tungdiagnostik och vid behov tittar vi på naglar, hy, ögon med flera.
- Hälsokonsultation
-Inga allmänna råd fungerar lika bra för alla, därför behöver varje person undersökas och behandlas individuellt för att uppnå bästa resultat.
- Som undersökningsmetod använder vi pulsdiagnostik, tungdiagnostik och vid behov tittar vi på naglar, hy, ögon med flera.</p>
+           <p className="information-about fs-5 text-center">
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+           Sed malesuada molestie nulla, vel hendrerit nulla suscipit sed.
+            Donec diam leo, efficitur sit amet finibus ac, laoreet in est. 
+            Maecenas at velit in diam eleifend iaculis. Vivamus sit amet justo commodo,
+             rutrum ante et, suscipit magna. Ut ullamcorper eu augue a tempor. Phasellus 
+             aliquet ex odio, eu ullamcorper enim molestie rhoncus. Donec et consequat velit.</p>
        
            </div> 
 </div>
 
 <div class="row pictures justify-content-center ">
 <div class="col-12 col-md-6 col-lg-4 colum-about  ">
-           <p className="information-about fs-5">Hälsokonsultation
-Inga allmänna råd fungerar lika bra för alla, därför behöver varje person undersökas och behandlas individuellt för att uppnå bästa resultat.
- Som undersökningsmetod använder vi pulsdiagnostik, tungdiagnostik och vid behov tittar vi på naglar, hy, ögon med flera.
- Hälsokonsultation
-Inga allmänna råd fungerar lika bra för alla, därför behöver varje person undersökas och behandlas individuellt för att uppnå bästa resultat.
- Som undersökningsmetod använder vi pulsdiagnostik, tungdiagnostik och vid behov tittar vi på naglar, hy, ögon med flera.</p>
+           <p className="information-about fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+           Sed malesuada molestie nulla, vel hendrerit nulla suscipit sed.
+            Donec diam leo, efficitur sit amet finibus ac, laoreet in est. 
+            Maecenas at velit in diam eleifend iaculis. Vivamus sit amet justo commodo,
+             rutrum ante et, suscipit magna. Ut ullamcorper eu augue a tempor. Phasellus 
+             aliquet ex odio, eu ullamcorper enim molestie rhoncus. Donec et consequat velit.</p>
        
            </div> 
 
 
        
-           <div class="col-12 col-md-6 col-lg-4 colum-about colum-img justify-content-start">
-            <img className="image-about2" src="../images/kos.jpg"  path="/about" alt=""/>
+           <div class="col-12 col-md-6 col-lg-4 colum-about colum-img2 justify-content-start">
+            {/* <img className="image-about2" src="../images/woman2.jpg"  path="/about" alt=""/> */}
            </div> 
 </div>
 

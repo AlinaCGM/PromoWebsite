@@ -7,6 +7,7 @@ import Massage from "../Massage";
 import AboutOks from "../AboutOks";
 import Footer from "../Footer";
 import ImageSlide from "../ImageSlide";
+import CardServicesYoga from "../CardServicesYoga";
 
 
 
@@ -15,8 +16,9 @@ function Home() {
     <>
     <HeroSection/>
     <ServiceSection/>
-    <Massage/>
+    <CardServicesYoga/>
     <AboutOks/>
+    <Massage/>
     <ImageSlide/>
     {/* <BlogPage/>   */}
     <Footer/>

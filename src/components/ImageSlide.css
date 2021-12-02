@@ -1,12 +1,12 @@
   .slider-container  {
 
     width: 100%;
-    background-color: #ddf0ff;
+    background-color: #edf0f1;
     padding-bottom: 2rem;
   }
   .img-y {
     
-    width: 80%;
+    width: 50%;
     height: 20%;
     object-fit: cover;
   }
@@ -14,4 +14,4 @@
   .title-slider {
     margin: auto;
     text-align: center;
-  }
+  } 

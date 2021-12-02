@@ -12,7 +12,7 @@ function  HeroSection () {
       
      
           <div>
-          <h1 className="hero-title">BREATH..
+          <h1 className="hero-title">BREATHE..
           </h1>
           
             </div>   

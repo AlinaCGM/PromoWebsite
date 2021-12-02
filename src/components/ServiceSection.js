@@ -15,10 +15,10 @@ const ServiceSection = () => {
     <div class="row align-items-center ">
     <div className="col-12  col-md-6 col-lg-3  d-flex justify-content-between "> 
 <Card className="first col "  > 
-     <img className="img_first" src="../images/1.svg" path="/about" alt=""/>
+     <img className="img_first one" src="../images/11.png" path="/about" alt=""/>
   <Card.Body >
-    <h2 className="title_services">MASSAGE</h2>
-    <p className="title_content">Индивидуальные Аюрведические консультации онлайн и оффлайн</p>
+    <h2 className="title_services">SERVICE 1</h2>
+    <p className="title_content">Lorem ipsum dolor sit amet,</p>
   </Card.Body>
   <Button/>
 </Card>
@@ -26,10 +26,10 @@ const ServiceSection = () => {
 
      <div className="col-12  col-md-6 col-lg-3 d-flex justify-content-between"> 
 <Card className="first col"  >
-<img className="img_first" src="../images/2.svg" path="/about" alt=""/>
+<img className="img_first two" src="../images/22.png" path="/about" alt=""/>
   <Card.Body>
-    <h2 className="title_services">YOGAE</h2>
-    <p className="title_content">Индивидуальные Аюрведические консультации онлайн и оффлайн</p>
+    <h2 className="title_services">SERVICE 2</h2>
+    <p className="title_content">Lorem ipsum dolor sit amet,</p>
   </Card.Body>
   <Button/>
 </Card>
@@ -37,10 +37,10 @@ const ServiceSection = () => {
 
      <div className="col-12  col-md-6 col-lg-3 d-flex justify-content-between"> 
 <Card className="first col"  >
-<img className="img_first" src="../images/3.svg" path="/about" alt=""/>
+<img className="img_first three" src="../images/33.png" path="/about" alt=""/>
   <Card.Body>
-    <h2 className="title_services">TRAINING</h2>
-    <p className="title_content">Индивидуальные Аюрведические консультации онлайн и оффлайн</p>
+    <h2 className="title_services">SERVICE 3</h2> 
+    <p className="title_content">Lorem ipsum dolor sit amet,</p>
   </Card.Body>
   <Button/>
 </Card>
@@ -48,10 +48,10 @@ const ServiceSection = () => {
 
      <div className="col-12  col-md-6 col-lg-3 d-flex justify-content-between"> 
 <Card className="first col"  >
-<img className="img_first" src="../images/4.svg" path="/about" alt=""/>
+<img className="img_first four" src="../images/44.png" path="/about" alt=""/>
   <Card.Body>
-    <h2 className="title_services">YOGA TOUR</h2>
-    <p className="title_content">Индивидуальные Аюрведические консультации онлайн и оффлайн</p>
+    <h2 className="title_services">SERVICE 4</h2>
+    <p className="title_content">Lorem ipsum dolor sit amet,</p>
   </Card.Body>
   <Button/>
 </Card>
