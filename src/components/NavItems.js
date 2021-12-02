@@ -38,7 +38,7 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "Contact U",
+      title: "Contact Us",
       path: "./contact",
       nName: "nav-item",
       sName: "sidebar-item",
