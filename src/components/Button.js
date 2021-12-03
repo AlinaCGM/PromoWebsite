@@ -2,11 +2,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Button.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Button() {
   return (
     <Link to="signup">
-      <button className="btn">more</button>
+      <button type="button" className="btn btn-outline-secondary btn-sm button">more</button>
     </Link>
   );
 }

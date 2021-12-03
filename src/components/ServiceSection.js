@@ -2,6 +2,7 @@ import React from "react";
 import { Card } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './ServiceSection.css';
+import './Button.css';
 import Button from './Button';
 // import FadeInSection from "./FadeInSection";
 

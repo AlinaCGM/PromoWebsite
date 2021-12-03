@@ -7,7 +7,7 @@
     height: auto;
     color: black;
     padding: 2rem 2rem;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 .information-about {
     font-size: 18px;
@@ -46,93 +46,88 @@
      border: 10px solid black;
  }
 
+  .small-about {
+    background-image: url(../images/woman1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+  }
 
-
- @media (min-width: 300px) and (max-width:650px) {
-    .large {
-        display:none;
-    }
-    .information {
-       
-        margin-left: 20%;
-        font-size: 12px;
+ @media (min-width: 270px) and (max-width:767px) {
+  
+    .information-about {
+        font-size: 15px;
         font-family: 'Playfair Display', serif;;
-        color: rgb(43, 39, 39);
+        color: rgb(126, 125, 125);
         letter-spacing: 0.5px;
-        line-height: 1.5rem; 
+        line-height: 1.2rem; 
     }
-    .image-extra {
-        margin-left: 20%;
-        width: 50%;
-        height:auto;
-       
-        
+   
+    .colum-img1, .colum-img2 {
+        height: 300px;
     }
- 
     
 }  
  h3 {
     font-family: 'Playfair Display', serif;
  }
-@media (min-width: 651px)  {
-    .small {
+@media (min-width: 768px)  {
+   .extrapage-container {
+       width: 100%;
+       height: auto;
+   }
+    .small-about {
         display:none;
     }
-    .information {
-        /* margin: 1rem; */
-        font-size: 12px;
-        font-family: 'Playfair Display', serif;
-        color: rgb(43, 39, 39);
-        letter-spacing: 0.5px;
-        line-height: 1.5rem; 
-    }
-    .image-about {
-        width: 50%;
-        height:auto;
-        margin-top:3rem;
-    }
  
+  
     
 }  
-@media (min-width: 950px)  {
-    .small {
+@media (min-width: 991px)  {
+    .colum-about{
+        width: 100%;
+        height: 30vh;
+    }
+    
+    .colum-img1, .colum-img2{
+        width: 100%;
+        height:auto;
+        
+    }
+   
+    .small-about {
         display:none;
     }
-    .information {
+    .information-about {
         /* margin: 5rem; */
-        font-size: 14px;
+        font-size: 18px;
         font-family: 'Playfair Display', serif;
         color: rgb(43, 39, 39);
         letter-spacing: 0.5px;
         line-height: 1.5rem; 
+        height: auto;
     }
-    .image-extra {
-        width: 70%;
-        height:auto;
-        margin-top:1rem;
-    }
- 
-    
+   
 }  
 @media (min-width: 1400px)  {
-    .small {
+    .small-about {
         display:none;
     }
-    .information {
-        /* margin: 2rem 8rem; */
-        
-        font-size: 16px;
-        font-family: 'Playfair Display', serif;
-        color: rgb(43, 39, 39);
-        letter-spacing: 0.5px;
-        line-height: 2rem; 
+    .information-about {
+   
+        font-size: 26px;
+        line-height: 2.5rem; 
     }
-    .image-extra {
-        width: 60%;
-        height:auto;
-        margin-top:1rem;
+    .colum-about{
+        width: 100%;
+        height: 40vh;
     }
- 
     
+    .colum-img1, .colum-img2{
+        width: 100%;
+        height:auto;
+        
+    }
+   
 }  
  
