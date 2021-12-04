@@ -16,7 +16,7 @@ export default class Massage extends Component {
       autoplaySpeed: 2000,
       cssEase: "linear"
     };
-    return (  // test
+    return (  
       <div className="massage-container"> 
   
         <Slider {...settings}>
