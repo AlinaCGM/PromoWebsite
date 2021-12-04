@@ -22,7 +22,7 @@
     
     position: absolute;
      left:2%;
-    bottom: 15%;
+    bottom: 0;
  
 }
 
@@ -57,12 +57,16 @@
     .title_content {
         font-size:8px;
     }
-   .img_first {
+    .img_first {
        width:20%;
-   }
+   } 
   
 }
-
+ @media (min-width:500px) and (max-width:767px) {
+    .one, .four {
+        width:15%;
+    }
+} 
 
 
 /* @media (min-width: 768px) {

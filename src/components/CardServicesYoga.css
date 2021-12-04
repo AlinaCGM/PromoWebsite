@@ -51,7 +51,8 @@
   }
 
   .services-2 { 
-     object-fit: contain;
+     object-fit: cover;
+     justify-content: center;
     
   }  
   

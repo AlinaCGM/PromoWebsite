@@ -19,7 +19,7 @@
 }
 
 .colum-about{
-    border: 1px solid #c1c8ca;
+   
     text-align: center;
     padding: 2rem;
 } 
@@ -29,28 +29,27 @@
  
  }  */
 .colum-img1 {
-    background-image: url(../images/woman4.jpg);
+    background-image: url(../images/man2.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .colum-img2 {
-    background-image: url(../images/woman2.jpg);
+    background-image: url(../images/woman5.jpg);
     background-size: cover;
     background-position: center;
 }
 
-
+/* 
  .btn-about {
      width:100px;
      border: 10px solid black;
- }
+ } */
 
   .small-about {
-    background-image: url(../images/woman1.jpg);
+    background-image: url(../images/woman2.jpg);
     background-size: cover;
     background-position: center;
-    height: 300px;
   }
 
  @media (min-width: 270px) and (max-width:767px) {
@@ -63,8 +62,10 @@
         line-height: 1.2rem; 
     }
    
-    .colum-img1, .colum-img2 {
+    .colum-img1, .colum-img2, .small-about {
+      
         height: 300px;
+       
     }
     
 }  
@@ -130,4 +131,6 @@
     }
    
 }  
- 
+  .last {
+      margin-bottom: 1rem;
+  }

@@ -21,7 +21,7 @@ const ServiceSection = () => {
     <h2 className="title_services">SERVICE 1</h2>
     <p className="title_content">Lorem ipsum dolor sit amet,</p>
   </Card.Body>
-  <Button/>
+  <Button/> 
 </Card>
      </div>
 

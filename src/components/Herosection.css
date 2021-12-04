@@ -18,40 +18,58 @@
 
  .hero-title {
      position: absolute;
-     color: rgb(22, 175, 137);
+     color: rgb(112, 113, 121);
      top:10%;
      left: 10%;
      font-size: 72px;
-     font-weight: bold;
-     font-family: 'Annie Use Your Telescope', cursive;
-     font-family: 'Annie Use Your Telescope', cursive;
+     font-family: 'Amatic SC', cursive;
+
  }
  
 
-  @media (min-width: 270px) and (max-width: 1000px) {
+  @media (min-width: 270px) and (max-width: 450px) {
     .hero-container {
   
         background-size: 80% auto;
         background-position: center;
         background-repeat: no-repeat;
         width: 100%;
-        height: 20vh;
-      
-      
+        height: 30vh;  
+    }
+    .hero-title{ 
+      font-size: 25px;
+      margin-top: 2%; 
+    }
+  }
+  @media (min-width: 451px) and (max-width: 899px) {
+    .hero-container {
+  
+        background-size: 80% auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 45vh;  
     }
     .hero-title{
-      font-size: 15px;
+      font-size: 45px;
       margin-top: 2%; 
-      
-     
     }
-  
-
   }
 
+  @media screen and (min-width: 900px) {
+    .hero-container > .header {
+      font-size: 20px;
+      margin-top: 90px;
+      margin-bottom:2rem;
+    }
+  
+    .hero-container > .header1 {
+      font-size: 50px;
+    }
+   
+  } 
 
-
-   @media screen and (min-width: 1001px) {
+  @media screen and (min-width: 1001px) {
     .hero-container {
        
         background-size: 60% auto;
@@ -63,37 +81,8 @@
       
     }
     .hero-title{
-      font-size: 50px;
+      font-size: 70px;
       margin-top: 5%; 
      
     }
-  
-
   }
-
-
-  @media screen and (min-width: 900px) {
-    .hero-container > .header {
-      font-size: 20px;
-      margin-top: 90px;
-      margin-bottom:2rem;
-    }
-  
-    .hero-container > .header1 {
-      font-size: 40px;
-    }
-   
-  } 
-  @media screen and (min-width: 1100px) {
-    .hero-container > .header {
-      font-size: 30px;
-      margin-top: 120px;
-      margin-bottom:2rem;
-    }
-  
-    .hero-container > .header1 {
-      font-size: 60px;
-      margin-top: -40px;
-    }
-    
-  } 

@@ -33,13 +33,13 @@ function AboutOks() {
             Donec diam leo, efficitur sit amet finibus ac, laoreet in est. 
             Maecenas at velit in diam eleifend iaculis. Vivamus sit amet justo commodo,
              rutrum ante et, suscipit magna. Ut ullamcorper eu augue a tempor. Phasellus 
-             aliquet ex odio, eu ullamcorper enim molestie rhoncus. Donec et consequat velit.</p>
+             aliquet ex odio, eu ullamcorper enim molestie rhoncus. Donec et consequat velit.</p>  
        
            </div> 
 </div>
 
 
-<div className="small-about col-12 col-md-6 col-lg-4 colum-about ">
+<div className="small-about col-12 col-md-6 col-lg-4  colum-about ">
 
 </div>
 
@@ -51,24 +51,19 @@ function AboutOks() {
            Sed malesuada molestie nulla, vel hendrerit nulla suscipit sed.
             Donec diam leo, efficitur sit amet finibus ac, laoreet in est. 
             Maecenas at velit in diam eleifend iaculis. Vivamus sit amet justo commodo,
-             rutrum ante et, suscipit magna. Ut ullamcorper eu augue a tempor. Phasellus 
-             aliquet ex odio, eu ullamcorper enim molestie rhoncus. Donec et consequat velit.</p>
+             rutrum ante et, suscipit magna. Ut ullamcorper eu augue a tempor.</p>
        
            </div> 
 
 
        
-           <div class="col-12 col-md-6 col-lg-6 colum-about colum-img2 justify-content-start">
+           <div class="col-12 col-md-6 col-lg-6 colum-about colum-img2 justify-content-start last">
             {/* <img className="image-about2" src="../images/woman2.jpg"  path="/about" alt=""/> */}
            </div> 
 </div>
 
-
-          
-
-          
    
-        <Button className="btn-about"/> 
+        <Button className="btn btn-secondary btn-sm"/> 
 </div>
      
      
