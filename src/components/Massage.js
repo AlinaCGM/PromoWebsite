@@ -16,8 +16,8 @@ export default class Massage extends Component {
       autoplaySpeed: 2000,
       cssEase: "linear"
     };
-    return (
-      <div className="massage-container">
+    return (  // test
+      <div className="massage-container"> 
   
         <Slider {...settings}>
         <div> <img className="img-m" src="../images/m1.jpg" path="/about"alt=""/> </div>
