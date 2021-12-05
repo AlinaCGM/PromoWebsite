@@ -85,7 +85,11 @@
     
 }  
 @media (min-width: 991px)  {
-    .colum-about{
+    .extrapage-container {
+        width: 100%;
+        height: auto;
+    } 
+    /* .colum-about{
         width: 100%;
         height: 30vh;
     }
@@ -94,7 +98,7 @@
         width: 100%;
         height:auto;
         
-    }
+    } */
    
     .small-about {
         display:none;
