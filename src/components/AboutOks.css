@@ -107,17 +107,17 @@
         letter-spacing: 0.5px;
         line-height: 1.5rem; 
         height: auto;
-    }
+    } 
    
 }  
 @media (min-width: 1400px)  {
     .small-about {
         display:none;
-    }
+    } 
     .information-about {
    
-        font-size: 26px;
-        line-height: 2.5rem; 
+        font-size: 40px;
+        line-height: 3rem; 
     }
     .colum-about{
         width: 100%;

@@ -23,7 +23,7 @@ function AboutOks() {
 
 
 <div class="row pictures justify-content-center ">
-            <div class="col-12 col-md-6 col-lg-6 colum-about colum-img1  ">
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6 colum-about colum-img1  ">
             {/* <img className="image-about1" src="../images/woman1.jpg"  path="/about" alt=""/> */}
            </div> 
            <div class="col-12 col-md-6 col-lg-6 colum-about  ">
@@ -39,14 +39,14 @@ function AboutOks() {
 </div>
 
 
-<div className="small-about col-12 col-md-6 col-lg-4  colum-about ">
+<div className="small-about col-12  colum-about ">
 
 </div>
 
 
 
 <div class="row pictures justify-content-center ">
-<div class="col-12 col-md-6 col-lg-6 colum-about  ">
+<div class="col-12 col-md-6 col-lg-6 col-xl-6 colum-about  ">
            <p className="information-about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
            Sed malesuada molestie nulla, vel hendrerit nulla suscipit sed.
             Donec diam leo, efficitur sit amet finibus ac, laoreet in est. 
@@ -57,7 +57,7 @@ function AboutOks() {
 
 
        
-           <div class="col-12 col-md-6 col-lg-6 colum-about colum-img2 justify-content-start last">
+           <div class="col-12 col-md-6 col-lg-6 col-xl-6 colum-about colum-img2 justify-content-start last">
             {/* <img className="image-about2" src="../images/woman2.jpg"  path="/about" alt=""/> */}
            </div> 
 </div>
