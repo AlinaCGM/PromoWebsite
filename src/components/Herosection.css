@@ -1,15 +1,15 @@
 .hero-container {
     position: relative;
     background-image: url(../images/woman.jpg); 
-    margin-top: -2rem;
+    margin-top: -5rem;
     background-size: 70% auto;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     width: 100%;
-    height: 80vh ;
+    height: 50vh ;
     position:relative;
     display: flex;
-    flex-direction: column; 
+   border: 5px solid red;
     object-fit: contain;
     /* overflow: hidden; */
     z-index: -1;
@@ -28,58 +28,45 @@
  
 
   @media (min-width: 270px) and (max-width: 450px) {
-    .hero-container {
+     .hero-container {
   
         background-size: 80% auto;
         background-position: center;
         background-repeat: no-repeat;
-        width: 100%;
-        height: 30vh;  
-    }
+       
+        height: 25vh;  
+    } 
     .hero-title{ 
       font-size: 25px;
-      margin-top: 2%; 
+      margin-top: 4%; 
     }
   }
   @media (min-width: 451px) and (max-width: 899px) {
-    .hero-container {
+     .hero-container {
   
         background-size: 80% auto;
         background-position: center;
         background-repeat: no-repeat;
-        width: 100%;
+        margin-top: -5rem;
         height: 45vh;  
-    }
+    } 
     .hero-title{
       font-size: 45px;
       margin-top: 2%; 
     }
   }
 
+
   @media screen and (min-width: 900px) {
-    .hero-container > .header {
-      font-size: 20px;
-      margin-top: 90px;
-      margin-bottom:2rem;
-    }
+    .hero-container {
   
-    .hero-container > .header1 {
-      font-size: 50px;
-    }
-   
+      background-size: 70% auto;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-top: -4rem;
+      height: 60vh;  
   } 
 
-  @media screen and (min-width: 1001px) {
-    .hero-container {
-       
-        background-size: 60% auto;
-        background-position: center;
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 60vh;
-      
-      
-    }
     .hero-title{
       font-size: 70px;
       margin-top: 5%; 

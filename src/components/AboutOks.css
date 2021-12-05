@@ -123,17 +123,7 @@
         font-size: 40px;
         line-height: 3rem; 
     }
-    .colum-about{
-        width: 100%;
-        height: 40vh;
-    }
-    
-    .colum-img1, .colum-img2{
-        width: 100%;
-        height:auto;
-        
-    }
-   
+
 }  
   .last {
       margin-bottom: 1rem;
