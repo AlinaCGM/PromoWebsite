@@ -1,13 +1,13 @@
 import React from 'react';
 import '../../App.css';
-import AboutOks from "../AboutOks";
+import AboutP from "../AboutP";
 
 
 export default function About() {
   return (
   <div>
   <h1 className='about' id="about">ABOUT US</h1>
-  <AboutOks/>
+  <AboutP/>
 
   </div> 
   );

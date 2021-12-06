@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import CardServices from "../CardServices";
-import CardServicesYoga from "../CardServicesYoga";
+import ImageTextServices from "../ImageTextServices";
 import CardServicesMassage from "../CardServicesMassage";
 
 
@@ -9,9 +9,10 @@ import CardServicesMassage from "../CardServicesMassage";
   return (
   <div>
   <h1 className='services' id="services">Services</h1>
-  <CardServicesYoga/>
+  <ImageTextServices/>
   <CardServices/>
   <CardServicesMassage/>
+  
   
   </div> 
   );

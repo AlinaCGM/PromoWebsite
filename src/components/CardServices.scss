@@ -3,7 +3,7 @@
   }
   
  .cardservices-box {
-   background-color:#c96977;
+   background-color:#e4b4bb;
    padding: 2rem 0 2rem 0;
  }
   
@@ -25,7 +25,7 @@
     line-height: 1.4;
     font-family: sans-serif;
     border-radius: 5px;
-    overflow: hidden;
+     overflow: hidden;
    
     z-index: 0;
     a {
@@ -44,7 +44,7 @@
     .meta {
       position: relative;
       z-index: 0;
-      height: 400px;
+      height: 300px;
     }
     .photo {
       position: absolute;
@@ -56,6 +56,13 @@
       background-position: top;
       transition: transform .2s;
     }
+
+    .img-cs {
+       width: 100%;
+       height: auto;
+       object-position: center;
+    }
+
     .details,
     .details ul {
       margin: auto;
