@@ -9,7 +9,7 @@ function  BlogPage () {
    
     return (
       <div className="blog-page" id="blog-page">
-        <h1>BLOG</h1>
+   
       <div class="container">
 
   <div class="row blog-1">

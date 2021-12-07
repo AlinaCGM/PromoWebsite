@@ -12,12 +12,11 @@
 .contact,
 .blog,
 .shop,
-.booking,
+.gallery,
 .services {
   /* display: flex; */
   justify-content: center;
   align-items: center;
- 
   font-size: 4rem;
   background-position: center;
   background-repeat: none;
@@ -41,9 +40,18 @@
  
 }
 #root .services {
-  background-color: #F8EDEB;
+  background-color: #fff1e6;
 }
 
+#root .about {
+  background-color: #f0efeb;
+}
+#root .blog {
+  background-color: #e9ecef;
+}
+#root .gallery {
+  background-color: #d8f3dc;
+}
 h1 {
   align-items: center;
   display: flex;

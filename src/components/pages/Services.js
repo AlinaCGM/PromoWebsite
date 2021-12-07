@@ -8,7 +8,7 @@ import CardServicesMassage from "../CardServicesMassage";
  function Services() {
   return (
   <div>
-  <h1 className='services' id="services">Services</h1>
+  <h1 className='services' id="services">SERVICES</h1>
   <ImageTextServices/>
   <CardServices/>
   <CardServicesMassage/>

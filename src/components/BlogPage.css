@@ -1,7 +1,8 @@
 .blog-page {
-    width: 90%;
+    background-color: #e9ecef;
+    width: 100%;
     height: auto;
-    border: 5px solid green;
+   
     
     padding: 2rem;
     margin: auto;
