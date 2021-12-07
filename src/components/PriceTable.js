@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 import { Card } from "react-bootstrap";
 import './PriceTable.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import Button from './Button';
+import {Button} from './Button';
 
 // import FadeInSection from './FadeInSection';
 

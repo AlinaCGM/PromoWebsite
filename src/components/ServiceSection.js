@@ -3,7 +3,7 @@ import { Card } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './ServiceSection.css';
 import './Button.css';
-import Button from './Button';
+import {Button} from './Button';
 // import FadeInSection from "./FadeInSection";
 
  
@@ -24,7 +24,7 @@ const ServiceSection = () => {
     
     
     <div class="row align-items-center ">
-    <div className="col-12  col-md-4 col-lg-4  d-flex justify-content-between "> 
+    <div className="col col-md-4 col-lg-4  d-flex justify-content-between "> 
 <Card className="first col one "  > 
   
   <Card.Body >
@@ -35,7 +35,7 @@ const ServiceSection = () => {
 </Card> 
      </div>
 
-     <div className="col-12  col-md-4 col-lg-4 d-flex justify-content-between"> 
+     <div className="col col-md-4 col-lg-4 d-flex justify-content-between"> 
 <Card className="first col two"  >
 
   <Card.Body>
@@ -46,7 +46,7 @@ const ServiceSection = () => {
 </Card>
      </div>
 
-     <div className="col-12  col-md-4 col-lg-4 d-flex justify-content-between"> 
+     <div className="col col-md-4 col-lg-4 d-flex justify-content-between"> 
 <Card className="first col three"  >
 
   <Card.Body>
