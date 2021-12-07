@@ -10,17 +10,17 @@ export default function MassaheHome() {
   return (
         // <FadeInSection>
     <div className="massage-home" id="massage-home">
-       <div className="row  m-5 "> 
+       <div className="row  "> 
        
        
             <div className="col-4 card_p  col-md-4 col-lg-4 justify-content-evenly ">
             <Card className="card_left flex-column">
-             <p className="stone-text text-uppercase">Lorem ipsum dolor sit amet,</p>
-             <p className="stone-text text-uppercase">Lorem ipsum dolor sit amet,</p>
-             <p className="stone-text text-uppercase">Lorem ipsum dolor sit amet,</p>
-             <p className="stone-text text-uppercase">Lorem ipsum dolor sit amet,</p>
-             <p className="stone-text text-uppercase">Lorem ipsum dolor sit amet,</p>
-              {/* <Card.Img variant="top" className="img_portfolio  d-flex " src="../images/g1.jpg" alt="image1" /> */}
+             <p className="stone-text-l text-uppercase">massage different types</p>
+             <p className="stone-text-l text-uppercase">massage different types</p>
+             <p className="stone-text-l text-uppercase">massage different types</p>
+             <p className="stone-text-l text-uppercase">massage different types</p>
+             <p className="stone-text-l text-uppercase">massage different types</p>
+         
               </Card>
                </div>
               
@@ -32,16 +32,14 @@ export default function MassaheHome() {
 
                <div className="col-4 card_p col-md-4 col-lg-4 justify-content-center">
                <Card className="card_right">
-               <h2> PREGNANCY MASSAGE</h2>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.dolore magna aliqua. </p>
-            <p className="stone-right">Lorem ipsum dolor </p>
-             <p className="stone-right">Lorem ipsum dolor </p>
-             <p className="stone-right">Lorem ipsum dolor </p>
-             <p className="stone-right">Lorem ipsum dolor </p>
-             <p className="stone-right">Lorem ipsum dolor </p>
-               
-              {/* <Card.Img variant="top" className="img_portfolio  d-flex" src="../images/g3.jpg" alt="image1" /> */}
-              </Card>
+               <h2 className="stone-title"> PREGNANCY MASSAGE</h2>
+               <p className="stone-text-r">Lorem ipsum dolor sit amet, consectetur adipiscing elit,dolore magna aliqua. </p>
+            <p className="stone-text-r">Lorem ipsum dolor </p>
+             <p className="stone-text-r">Lorem ipsum dolor </p>
+             <p className="stone-text-r">Lorem ipsum dolor </p>
+             
+             
+              </Card> 
             </div>
          
        

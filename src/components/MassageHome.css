@@ -1,10 +1,9 @@
 .massage-home {
     background-color: rgb(252, 242, 229);
     width: 90%;
-    height:70vh;
-    margin: auto;
-    padding-top: 2rem;
-    margin-bottom: 5rem;
+    height:40vh;
+    margin: auto; 
+    margin-bottom: 3rem;
 }
 
 .card_center {
@@ -12,32 +11,211 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+  
 }
 
+
+
 .card_left, .card_right, .card_center {
+
   background-color: transparent;
   width:100%;
-  height:70vh;
+  height:40vh;
    border: none; 
   color:rgb(127, 131, 129);
  
 }
-.card_left {
-   display: flex;
-   flex-direction: column;
+.card_right {
+  
+    background-image: url(../images/golden5.png); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
-.stone-text {
-    padding: 1.5rem;
-    font-size: 24px;
-    font-weight: 400;
-   
-    
+.stone-text-l { 
+    font-size: 10px;
+    line-height: 14px;
+
+}
+.stone-text-r {
+    font-size: 9px;
+    text-align: left;
+
+}
+.stone-title {
+    font-size: 12px;
+
 }
 .card_right {
-   padding: 0.5rem;
+
     text-align: center;
 }
-.stone-right {
-    text-align: left;
-    padding-left: 2rem;
-}
+
+
+ @media (min-width:375px) {
+    .massage-home {
+        width: 90%;
+        height:30vh;
+        margin: auto;
+       
+        margin-bottom: 5rem;
+    }
+    
+    
+    .card_left, .card_right, .card_center {
+        background-color: transparent;
+        width: 100%;
+        height:30vh;
+        color:rgb(127, 131, 129);
+       
+      }
+   
+      h2 {
+          font-size: 12px;;
+      }
+} 
+
+
+
+ @media (min-width:500px) {
+    .massage-home {
+        width: 90%;
+        height:45vh;
+        margin: auto;
+        padding-top: 2rem;
+        margin-bottom: 5rem;
+    }
+    
+    
+    .card_left, .card_right, .card_center {
+        background-color: transparent;
+        width: 100%;
+        height:40vh;
+        color:rgb(127, 131, 129);
+       
+      }
+    
+      .stone-text-l { 
+        
+        font-size: 12px;
+        line-height: 1.5rem;
+    
+    }
+    .stone-text-r {
+        font-size: 12px;
+        text-align: left;
+    
+    }
+    .stone-title {
+       
+        font-size: 18px;
+    
+    }
+}  
+@media (min-width:768px) {
+    .massage-home {
+        width: 90%;
+        height:45vh;
+        margin: auto;
+        margin-bottom: 5rem;
+       
+    }
+    
+    
+    .card_left, .card_right, .card_center {
+        
+        background-color: transparent;
+        width: 100%;
+        height:40vh;
+        color:rgb(127, 131, 129);
+       
+      }
+    
+      .stone-text-l { 
+       
+        font-size: 14px;
+        line-height: 1.5rem;
+    
+    }
+    .stone-text-r {
+        font-size: 12px;
+        text-align: center;
+    
+    }
+    .stone-title {
+       
+        font-size: 18px;
+    
+    }
+}  
+
+@media (min-width:1024px) {
+    .massage-home {
+        width: 90%;
+        height:55vh;
+        margin: auto;
+        padding-top: 2rem;
+        margin-bottom: 5rem;
+    }
+    
+    
+    .card_left, .card_right, .card_center {
+        background-color: transparent;
+        width: 100%;
+        height:50vh;
+        color:rgb(127, 131, 129);
+       
+      }
+    
+      .stone-text-l { 
+        padding-top: 1rem;
+        font-size: 18px;
+        line-height: 2rem;
+    
+    }
+    .stone-text-r {
+        font-size: 14px;
+        text-align: center;
+    
+    }
+    .stone-title {
+        padding-top: 1rem;
+        font-size: 20px;
+    
+    }
+}  
+@media (min-width:1440px) {
+    .massage-home {
+        width: 90%;
+        height:55vh;
+        margin: auto;
+        padding-top: 2rem;
+        margin-bottom: 5rem;
+    }
+    
+    
+    .card_left, .card_right, .card_center {
+        background-color: transparent;
+        width: 100%;
+        height:50vh;
+        color:rgb(127, 131, 129);
+       
+      }
+    
+      .stone-text-l { 
+        padding-top: 1rem;
+        font-size: 20px;
+        line-height: 3rem;
+    
+    }
+    .stone-text-r {
+        font-size: 18px;
+        text-align: center;
+    
+    }
+    .stone-title {
+        padding-top: 1rem;
+        font-size: 22px;
+    
+    }
+}  

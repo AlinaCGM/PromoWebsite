@@ -7,9 +7,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Button() {
   return (
     <Link to="signup">
-      <button type="button" className="btn btn-outline-secondary btn-sm button">more</button>
+      <button type="button" className="btn btn-outline-secondary btn button">more</button>
     </Link>
   );
 }
 
-export default Button;
+export default Button; 

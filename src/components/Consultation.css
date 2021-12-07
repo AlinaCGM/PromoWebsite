@@ -1,9 +1,9 @@
 .consultation {
     background-color: rgb(173, 202, 176);
-    width: 80%;
+    width: 90%;
     height:50vh;
     margin: auto;
-    margin-top: 2rem;
+    /* margin-top: 6rem; */
     margin-bottom: 4rem;
 }
 
