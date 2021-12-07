@@ -22,13 +22,13 @@ export const navItems = [
       nName: "nav-item",
       sName: "sidebar-item",
     },
-    { 
-      id: 4,
-      title: "Blog",
-      path: "./blog",
-      nName: "nav-item",
-      sName: "sidebar-item",
-    },
+    // { 
+    //   id: 4,
+    //   title: "Blog",
+    //   path: "./blog",
+    //   nName: "nav-item",
+    //   sName: "sidebar-item",
+    // },
     {
       id: 5,
       title: "Gallery",

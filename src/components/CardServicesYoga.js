@@ -16,12 +16,12 @@ function CardServicesYoga() {
     } else {
       window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
     }
-  }, [location]); 
+  }, [location]);  
   return (
 
 <div id="" className=" cardservices2-box">
 <div className="wrapper">
-  <h1 className="yoga-title">SOME TITLE</h1>
+  <h1 className="yoga-title">WHY WE ARE THE BEST</h1>
   <div className="row">
 			<div className="col-12  col-md-6 col-lg-4  d-flex justify-content-between mb-5 " ontouchstart="this.classList.toggle('hover');">
 				<div className="container">

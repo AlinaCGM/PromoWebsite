@@ -1,0 +1,43 @@
+.massage-home {
+    background-color: rgb(252, 242, 229);
+    width: 90%;
+    height:70vh;
+    margin: auto;
+    padding-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.card_center {
+    background-image: url(../images/stone1.png); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card_left, .card_right, .card_center {
+  background-color: transparent;
+  width:100%;
+  height:70vh;
+   border: none; 
+  color:rgb(127, 131, 129);
+ 
+}
+.card_left {
+   display: flex;
+   flex-direction: column;
+}
+.stone-text {
+    padding: 1.5rem;
+    font-size: 24px;
+    font-weight: 400;
+   
+    
+}
+.card_right {
+   padding: 0.5rem;
+    text-align: center;
+}
+.stone-right {
+    text-align: left;
+    padding-left: 2rem;
+}

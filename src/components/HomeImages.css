@@ -1,0 +1,72 @@
+.homeImages-container {
+    background-color: transparent;
+    width: 90%;
+    height:70vh;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+
+.row {
+  width:100%; 
+  height: 250px; 
+  margin: auto;
+  padding-bottom: 1rem;
+}
+.underline {
+    background-image: url(../images/golden-underline.png); 
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.homeImages-title {
+  
+    height:80px;
+}
+ .col-all {
+    border: 1px solid rgb(231, 240, 153); 
+ }
+.r1-1 {
+    
+  background-image: url(../images/hi1.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+ 
+}
+
+.r1-2 {
+
+  background-image: url(../images/hi2.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+.r1-3 {
+
+  background-image: url(../images/hi3.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.r2-1 {
+
+  background-image: url(../images/y5.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.r2-2 {
+
+  background-image: url(../images/three.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.r2-3 {
+
+  background-image: url(../images/two.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

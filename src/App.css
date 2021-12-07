@@ -21,7 +21,7 @@
   background-position: center;
   background-repeat: none;
   background-size: cover;
-  text-shadow: 4px 4px 4px #fff;
+  
 }
 
 .home {
@@ -38,6 +38,10 @@
 #services {
   background-color: #232a3a;
  
+}
+
+#root {
+  background-color: #f8f0ec;
 }
 #root .services {
   background-color: #fff1e6;

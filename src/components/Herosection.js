@@ -13,8 +13,9 @@ function  HeroSection () {
       
      
           <div>
-          <h1 className="hero-title"> BREATHE..
-          </h1>
+          <h3 className="hero-title"> Welcome to our
+          </h3>
+          <h1 className="hero-title2"> MASSAGE THERAPHY CENTER</h1>
           
             </div>   
       
