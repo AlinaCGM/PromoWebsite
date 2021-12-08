@@ -34,20 +34,20 @@
 }
  .hero-title {
      position: absolute;
-     color: rgb(117, 110, 110);
+     color: rgb(255, 253, 253);
      top:20%;
-     left: 10%;
+     left: 5%;
      font-size:100%;
-     font-family: 'Amatic SC', cursive;
+     font-family: 'Gwendolyn', cursive;
 
  }
  .hero-title2 {
   position: absolute;
-  color: rgb(117, 110, 110);
+  color: rgb(248, 245, 245);
   top:20%;
-  left: 10%;
-  font-size:120%;
-  font-family: 'Amatic SC', cursive;
+  left: 5%;
+  font-size:80%;
+  font-family: 'IBM Plex Sans', sans-serif;
 
 }
   
@@ -66,7 +66,7 @@
       margin-top: 5%; 
     }
     .hero-title2{ 
-      font-size: 25px;
+      font-size: 15px;
       margin-top: 15%; 
     }
     .but_hero {
@@ -87,7 +87,7 @@
         background-size: 100% auto;
         background-position: center;
         background-repeat: no-repeat;
-        margin-top: -5rem; 
+        margin-top: -1.5rem; 
         margin-bottom: 1rem;
         height: 50vh;  
     } 

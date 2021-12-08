@@ -2,7 +2,7 @@
     background-color: #eeddd3;
     color:rgb(139, 118, 131);
     width: 90%;
-    height:100vh;
+    height:145vh;
     margin: auto;
     margin-bottom: 4rem;
 } 
@@ -16,28 +16,30 @@
     
     background-color: #fff1e6;
     width: 100%;
-    height: 200px;
+    height: 300px;
     margin: auto;
     margin-top: 1rem;
-  
+   
 }
-
+.price-title {
+    font-size:22px;
+}
 .underline1 {
 
-    background-image: url(../images/golden-underline.png); 
-    background-size: 30%;
-    background-repeat: no-repeat;
+    background-image: url(../images/heart.png); 
+    background-size: 80%;
+    background-repeat: no-repeat; 
     background-position: bottom;
-    height:80px;
+    height:110px;
 
 }
 
 .title_price {
     text-align: center;
-    font-size: 24px;
+    font-size: 18px;
 
     height: 60px ;
-    background-image: url(../images/golden3.png);
+    background-image: url(../images/heart.png);
     background-size: 45%;
     background-repeat: no-repeat;
     background-position: bottom;}
@@ -52,14 +54,68 @@
     font-size: 12px;
     line-height: 1rem;
 }
+
+.but_price {
+    width: 30%;
+    
+}
+.link_price {
+    color:rgb(139, 118, 131);
+    text-decoration: none;
+}
+@media (min-width:375px) {
+    .text_price {
+        text-align: center;
+        font-size: 12px;
+        line-height: 1.5rem;
+    }
+}
 @media (min-width:768px) {
     .price  {
         background-color: #eeddd3;
         color:rgb(139, 118, 131);
         width: 90%;
-        height:50vh;
+        height:80vh;
         margin: auto;
     } 
+  
+    .price-col{
+    
+        width: 100%;
+        height: 400px;
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom:1rem
+    }
+    .but_price {
+        width: 30%;  
+    }
+    .price-title {
+    
+        height: 30px;
+    }
+    .underline1 {
+ 
+        height: 130px;
+    }
+}
+@media (min-width:1024px) {
+    .price  {
+        background-color: #eeddd3;
+        color:rgb(139, 118, 131);
+        width: 90%;
+        height:65vh;
+        margin: auto;
+        margin-top: 15rem;
+    } 
+    .price-title {
+    
+        height: 20px;
+    }
+    .underline1 {
+ 
+        height: 150px;
+    }
     .price-col{
     
         width: 100%;
@@ -72,20 +128,36 @@
 }
 @media (min-width:1024px) {
     .price  {
-        background-color: #eeddd3;
-        color:rgb(139, 118, 131);
+       
         width: 90%;
-        height:60vh;
+        height:75vh;
         margin: auto;
         margin-top: 15rem;
     } 
+    .price-title {
+        font-size: 26px;
+        height: 20px;
+    }
+    .underline1 {
+        height: 200px;
+    }
     .price-col{
     
         width: 100%;
-        height: 300px;
+        height: 400px;
         margin: auto;
         margin-top: 1rem;
         margin-bottom:1rem
       
     }
+    .title_price {
+        font-size: 22px;  
+    }
+    .digits_price {
+        font-size: 20px;  
+    }
+    .text_price {
+        font-size: 18px; 
+        line-height:2rem; 
+    } 
 }

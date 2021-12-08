@@ -9,34 +9,37 @@
     height:110px;
     margin: auto;
     margin-bottom: 1rem;
-    background-image: url(../images/golden-underline.png); 
-    background-size: 30%;
+    background-image: url(../images/pink.png); 
+    background-size: 50%;
     background-repeat: no-repeat;
     background-position: bottom;
+   
     
 }
 .title_services {
   font-size: 18px;
-  color: white;
+  color: rgb(233, 223, 223);
 }
 .title_content {
-    color: white;
+    color: rgb(233, 223, 223);
 }
 .golden-text {
-
-   font-size: 26px;
+    height: 100px;
+   color:rgb(77, 69, 60);
+   font-size: 22px;
+   padding-bottom: 5rem;
    
+}
+.text-center {
+    color:rgb(77, 69, 60);
 }
 .one, .two, .three {
     width:100%;
     height: 100px;
 }
-.golden-box > p {
-    font-size: 1rem;
-    color: white;
-}
+
 .first{
-    color: rgb(41, 33, 33);
+    color: rgb(233, 223, 223);
     background-color: transparent;
     padding: 1rem;
     margin: 1rem;
@@ -67,7 +70,7 @@
 }
 .link_services {
     text-decoration: none;
-    color:rgb(117, 110, 110);
+    color:rgb(233, 223, 223);
 
 }
  @media (min-width: 320px)  {
@@ -75,7 +78,7 @@
         width:90%;
         margin: 0 auto;
         margin-bottom: 1rem;
-        height:50rem;
+        height:55rem;
         overflow:hidden; 
     } 
      .one, .two, .three {
@@ -83,12 +86,17 @@
     }
     .title_services {
         font-size: 14px;
-        color: rgb(7, 7, 7);
+        
       }
       .title_content {
         font-size: 12px;
-          color: rgb(5, 5, 5);
+          
       }
+      .link_services {
+        text-decoration: none;
+        
+    
+    }
 } 
 @media (min-width: 375px)  {
     .cont-services {
@@ -101,11 +109,11 @@
     }
     .title_services {
         font-size: 14px;
-        color: rgb(8, 8, 8);
+      
       }
       .title_content {
         font-size: 10px;
-          color: rgb(11, 12, 12);
+         
       }
       .but_services {
         width: 80px;
@@ -131,11 +139,11 @@
      }
     .title_services {
         font-size: 14px;
-        color: rgb(8, 8, 8);
+      
       }
       .title_content {
         font-size: 10px;
-          color: rgb(11, 12, 12);
+     
       }
       .golden-el {
         margin-top: 1rem;
@@ -155,21 +163,21 @@
     }
     .title_services {
         font-size: 14px;
-        color: rgb(8, 8, 8);
+       
       }
       .title_content {
         font-size: 10px;
-          color: rgb(11, 12, 12);
+        
       }
       .but_services {
         width: 50%;
     }
     .golden-text {
-       margin-top: 1rem;
+  
         font-size: 26px;
      }
      .golden-el {
-        height: 90px;
+        height: 150px;
     }
    
 } 
@@ -188,11 +196,11 @@
      }
     .title_services {
         font-size: 14px;
-        color: rgb(8, 8, 8);
+        
       }
       .title_content {
         font-size: 10px;
-          color: rgb(11, 12, 12);
+       
       }
       .but_services {
         width: 30%;
@@ -211,11 +219,11 @@
     }
     .title_services {
         font-size: 14px;
-        color: rgb(8, 8, 8);
+      
       }
       .title_content {
         font-size: 10px;
-          color: rgb(11, 12, 12);
+        
       }
       .but_services {
         width: 30%;
@@ -243,11 +251,11 @@
     }
     .title_services {
         font-size: 24px;
-        color: rgb(8, 8, 8);
+        
       }
       .title_content {
         font-size: 10px;
-          color: rgb(11, 12, 12);
+         
       }
       .but_services {
         width: 30%;
@@ -262,7 +270,7 @@
         height: 250px;
     }
      .text-center {
-        border:1px solid rgb(71, 13, 179);
+      
         font-size: 36px;
      }
 } 

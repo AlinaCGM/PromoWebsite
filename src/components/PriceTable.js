@@ -2,8 +2,10 @@ import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { Card } from "react-bootstrap";
 import './PriceTable.css';
-import 'bootstrap/dist/css/bootstrap.css';
-import {Button} from './Button';
+import { Link } from "react-router-dom";
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Button from 'react-bootstrap/Button'
 
 // import FadeInSection from './FadeInSection';
 
@@ -27,7 +29,7 @@ function PriceTable() {
    
     <div class="row  ">
                       <div className="underline1 col"> 
-                      <h1 className=" price-title golden-text">OUR PRICE TABLE</h1></div>
+                      <h1 className=" price-title ">OUR PRICE TABLE</h1></div>
      </div>
      
      <div className="col-12  col-md-4 col-lg-4 d-flex "> 
@@ -40,7 +42,7 @@ function PriceTable() {
     <p className="text_price ">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
      dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
   </Card.Body>
-  <Button/> 
+  <Button className="but_price mx-auto mb-3" variant="outline-secondary" > <Link to="/services" className="link_price">more</Link> </Button>
 </Card>
      </div>
 
@@ -53,7 +55,7 @@ function PriceTable() {
     <p className="text_price ">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
      dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
   </Card.Body>
-  <Button/>
+  <Button className="but_price mx-auto mb-3" variant="outline-secondary" > <Link to="/services" className="link_price">more</Link> </Button>
 </Card>
      </div>
 
@@ -66,7 +68,7 @@ function PriceTable() {
     <p className="text_price ">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
      dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
   </Card.Body>
-  <Button/>
+  <Button className="but_price mx-auto mb-3" variant="outline-secondary" > <Link to="/services" className="link_price">more</Link> </Button>
 </Card>
      </div>
 

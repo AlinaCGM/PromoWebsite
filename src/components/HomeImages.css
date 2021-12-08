@@ -4,7 +4,7 @@
     width: 90%;
     height:45vh;
     margin: auto;
-    
+    margin-top: -3rem;
 }
  
 .row {
@@ -14,17 +14,18 @@
 
 }
 .underline {
-    background-image: url(../images/golden-underline.png); 
-    background-size: 30%;
+
+    background-image: url(../images/heart.png); 
+    background-size: 80%;
     background-repeat: no-repeat;
     background-position: bottom;
-    height:70px;
+    height:100px;
     margin-bottom: 2rem;
 }
 .homeImages-title {
   
-    height:80px;
-     font-size: 26px;
+    height:40px;
+     font-size: 22px;
 }
  .col-all, .col-all1 {
  
@@ -84,12 +85,12 @@
   
     background-color: transparent;
     width: 90%;
-    height:45vh;
+    height:50vh;
     margin: auto;
     
 }
 .underline {
-
+  
   height:90px;
   margin-bottom: 2rem;
 }
@@ -129,20 +130,19 @@
 @media (min-width: 768px) {
   .homeImages-container {
     width: 90%;
-    height:45vh;
-    margin: auto;
-    margin-top: -4rem;
- 
+    height:55vh;
+    margin: auto; 
+    
+  
 }
 .underline {
-
-  height:120px;
+  width: 100%;
+  height:70px;
  
 }
 .homeImages-title {
-  
-  height:30px;
-   font-size: 26px;
+  height:10px;
+  font-size: 26px;
 }
 
 }
@@ -165,7 +165,7 @@
  margin-top: 3rem;
 }
 .col-all, .col-all1 {
- 
+  
 
   width: 100%;
   height:200px;
@@ -175,22 +175,22 @@
 
 
 }
-@media (min-width: 1024px) {
+@media (min-width: 1440px) {
   .homeImages-container {
     width: 90%;
     height:55vh;
     margin: auto;
-    margin-top: -4rem;
+    /* margin-top: -4rem; */
 }
 .underline {
- 
+  width: 100%;
   height:100px;
 }
 .homeImages-title {
  
-  height:30px;
+  height:50px;
  font-size: 26px;
- margin-top: 2rem;
+ margin-top: -1rem;
 }
 .col-all, .col-all1 {
  
