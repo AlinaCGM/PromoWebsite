@@ -26,7 +26,7 @@ export default function MassaheHome() {
               
                <div className="col-4 card_p col-md-4 col-lg-4 justify-content-center">
                <Card className="card_center">
-              
+               
               </Card>
                </div>
 

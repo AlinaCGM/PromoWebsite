@@ -2,19 +2,17 @@
     width:90%;
     margin: 0 auto;
     margin-bottom: 1rem;
-    height:65rem;
+    height:50rem;
     overflow:hidden; 
 } 
-.golden-el {
-    
-    width:100%;
-    height:400px;
+.golden-el {    width:100%;
+    height:110px;
     margin: auto;
     margin-bottom: 1rem;
     background-image: url(../images/golden-underline.png); 
     background-size: 30%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     
 }
 .title_services {
@@ -26,12 +24,12 @@
 }
 .golden-text {
 
-   margin-top: 2%;
-   font-size: 32px;
+   font-size: 26px;
    
 }
 .one, .two, .three {
     width:100%;
+    height: 100px;
 }
 .golden-box > p {
     font-size: 1rem;
@@ -64,18 +62,25 @@
      background-size: cover;
     background-position: center;
 }
+.but_services {
+    width: 30%;
+}
+.link_services {
+    text-decoration: none;
+    color:rgb(117, 110, 110);
 
+}
  @media (min-width: 320px)  {
-    .cont-services {
+    .cont-services { 
         width:90%;
         margin: 0 auto;
         margin-bottom: 1rem;
-        height:60rem;
+        height:50rem;
         overflow:hidden; 
     } 
-    /* .one, .two, .three {
-        width:30%;
-    } */
+     .one, .two, .three {
+        width: 100%;
+    }
     .title_services {
         font-size: 14px;
         color: rgb(7, 7, 7);
@@ -89,13 +94,11 @@
     .cont-services {
         width:90%;
         margin: 0 auto;
-      
-        height:45rem;
-        
+        height:40rem;  
     } 
-    /* .one, .two, .three {
-        width:50%;
-    } */
+    .one, .two, .three {
+        width: 100%;
+    }
     .title_services {
         font-size: 14px;
         color: rgb(8, 8, 8);
@@ -104,6 +107,163 @@
         font-size: 10px;
           color: rgb(11, 12, 12);
       }
+      .but_services {
+        width: 80px;
+    }
 } 
 
+@media (min-width: 425px)  {
+    .cont-services {
+        width:90%;
+        margin: 0 auto;
+        height:40rem;
+        
+    } 
+    .one, .two, .three {
+        width: 100%;
     
+    }
+    .golden-text {
+
+        margin-top: 10%;
+        font-size: 26px;
+      
+     }
+    .title_services {
+        font-size: 14px;
+        color: rgb(8, 8, 8);
+      }
+      .title_content {
+        font-size: 10px;
+          color: rgb(11, 12, 12);
+      }
+      .golden-el {
+        margin-top: 1rem;
+          height: 130px;
+      }
+     
+} 
+@media (min-width: 768px)  {
+    .cont-services {
+        width:90%;
+        margin: 0 auto;
+        height:30rem;
+        
+    } 
+    .one, .two, .three {
+        width: 100%;
+    }
+    .title_services {
+        font-size: 14px;
+        color: rgb(8, 8, 8);
+      }
+      .title_content {
+        font-size: 10px;
+          color: rgb(11, 12, 12);
+      }
+      .but_services {
+        width: 50%;
+    }
+    .golden-text {
+       margin-top: 1rem;
+        font-size: 26px;
+     }
+     .golden-el {
+        height: 90px;
+    }
+   
+} 
+@media (min-width: 1024px)  {
+    .cont-services {
+        width:90%;
+        margin: 0 auto;
+        height:30rem;
+        
+    } 
+    .golden-text {
+
+        margin-top: 1rem;
+        font-size: 26px;
+     
+     }
+    .title_services {
+        font-size: 14px;
+        color: rgb(8, 8, 8);
+      }
+      .title_content {
+        font-size: 10px;
+          color: rgb(11, 12, 12);
+      }
+      .but_services {
+        width: 30%;
+    }
+
+} 
+@media (min-width: 1440px)  {
+    .cont-services {
+        width:90%;
+        margin: 0 auto;
+        height:35rem;
+     
+    } 
+    .one, .two, .three {
+        width: 100%;
+    }
+    .title_services {
+        font-size: 14px;
+        color: rgb(8, 8, 8);
+      }
+      .title_content {
+        font-size: 10px;
+          color: rgb(11, 12, 12);
+      }
+      .but_services {
+        width: 30%;
+    }
+    .golden-text {
+       
+        height: 100px;
+        margin-top: 1rem;
+        font-size: 36px;
+     }
+     .golden-el {
+        height: 150px;
+    }
+} 
+@media (min-width: 2560px)  {
+    .cont-services {
+        width:90%;
+        margin: 0 auto;
+        height:70rem;
+        
+    } 
+    .one, .two, .three {
+        width: 100%;
+        height: 500px;
+    }
+    .title_services {
+        font-size: 24px;
+        color: rgb(8, 8, 8);
+      }
+      .title_content {
+        font-size: 10px;
+          color: rgb(11, 12, 12);
+      }
+      .but_services {
+        width: 30%;
+    }
+    .golden-text {
+       
+        height: 100px;
+        margin-top: 1rem;
+        font-size: 56px;
+     }
+     .golden-el {
+        height: 250px;
+    }
+     .text-center {
+        border:1px solid rgb(71, 13, 179);
+        font-size: 36px;
+     }
+} 
+

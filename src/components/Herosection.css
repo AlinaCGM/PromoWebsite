@@ -16,22 +16,37 @@
     z-index: 1;
   
 }
+.but_hero {
+  position: absolute;
+  bottom:20%;
+  left:10%;
+  width:30%;
+  height:15%;
+ 
+}
+.link_hero {
+  color: rgb(117, 110, 110);
+  text-decoration: none;
+}
 
+.but_text {
+  font-size:10px;
+}
  .hero-title {
      position: absolute;
-     color: #b58463;
-     top:2%;
+     color: rgb(117, 110, 110);
+     top:20%;
      left: 10%;
-     font-size:140%;
+     font-size:100%;
      font-family: 'Amatic SC', cursive;
 
  }
  .hero-title2 {
   position: absolute;
-  color: #e8ac65;
-  top:2%;
+  color: rgb(117, 110, 110);
+  top:20%;
   left: 10%;
-  font-size:140%;
+  font-size:120%;
   font-family: 'Amatic SC', cursive;
 
 }
@@ -48,7 +63,21 @@
     } 
     .hero-title{ 
       font-size: 25px;
-      margin-top: 8%; 
+      margin-top: 5%; 
+    }
+    .hero-title2{ 
+      font-size: 25px;
+      margin-top: 15%; 
+    }
+    .but_hero {
+      position: absolute;
+      bottom:20%;
+      left:10%;
+      width:25%;
+      height:15%;
+    }
+    .but_text {
+      font-size:15px;
     }
   }  
   
@@ -62,9 +91,23 @@
         margin-bottom: 1rem;
         height: 50vh;  
     } 
-    .hero-title{
+    .hero-title{ 
+      font-size: 25px;
+      margin-top: 2%; 
+    }
+    .hero-title2{ 
       font-size: 35px;
       margin-top: 10%; 
+    }
+    .but_hero {
+      position: absolute;
+      bottom:20%;
+      left:10%;
+      width:25%;
+      height:10%;
+    }
+    .but_text {
+      font-size:20px;
     }
   }
 
@@ -80,10 +123,23 @@
       height: 60vh;  
   } 
 
-    .hero-title{
-      font-size: 42px;
-      margin-top: 5%; 
-     
+  .hero-title{ 
+    font-size: 30px;
+    margin-top: 10%; 
+  }
+  .hero-title2{ 
+    font-size: 45px;
+    margin-top: 15%; 
+  }
+    .but_hero {
+      position: absolute;
+      bottom:20%;
+      left:10%;
+      width:25%;
+      height:10%;
+    }
+    .but_text {
+      font-size:20px;
     }
   }
   @media screen and (min-width: 1024px) {
@@ -92,8 +148,8 @@
       background-size: 100% auto;
       background-position: center;
       background-repeat: no-repeat;
-      margin-top: -5%;
-      margin-bottom: -1%;
+      margin-top: 0;
+      margin-bottom: 0;
       height: 70vh;  
   } 
 
@@ -101,6 +157,16 @@
       font-size: 42px;
       margin-top: 5%; 
      
+    }
+    .but_hero {
+      position: absolute;
+      bottom:20%;
+      left:10%;
+      width:25%;
+      height:10%;
+    }
+    .but_text {
+      font-size:20px;
     }
   }
   @media screen and (min-width: 1440px) {
@@ -124,6 +190,16 @@
       margin-top: 10%; 
      
     }
+    .but_hero {
+      position: absolute;
+      bottom:20%;
+      left:10%;
+      width:25%;
+      height:10%;
+    }
+    .but_text {
+      font-size:30px;
+    }
   }
   @media screen and (min-width: 2560px) {
     .hero-container {
@@ -131,8 +207,8 @@
       background-size: 100% auto;
       background-position: center;
       background-repeat: no-repeat;
-      margin-top: -10%;
-      margin-bottom: -6%;
+      margin-top: 0;
+     
       height: 60vh;  
   } 
 
@@ -141,6 +217,8 @@
       margin-top: 5%; 
      
     }
+    .but_text {
+      font-size:45px;
+    }
   }  
 
- 

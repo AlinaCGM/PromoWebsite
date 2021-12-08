@@ -25,9 +25,9 @@ function PriceTable() {
 
 <div className="row container-price justify-content-between mx-auto ">
    
-    <div class="row content-price ">
+    <div class="row  ">
                       <div className="underline1 col"> 
-                      <h1 className=" price-title ">OUR PRICE TABLE</h1></div>
+                      <h1 className=" price-title golden-text">OUR PRICE TABLE</h1></div>
      </div>
      
      <div className="col-12  col-md-4 col-lg-4 d-flex "> 
