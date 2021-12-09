@@ -10,7 +10,8 @@ export default function MyGallery() {
   return (
         // <FadeInSection>
     <div className="mygallery" id="mygallery">
-       <div className="row  m-5 "> 
+      <div className="decoraction-title"> <p className="decorAboutTitle text-center"> GALLERY</p></div>
+       <div className="row "> 
        
        
             <div className="col-12 card_p  col-md-6 col-lg-3 justify-content-center ">

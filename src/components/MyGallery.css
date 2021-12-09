@@ -1,10 +1,11 @@
 .mygallery {
    
-    background-color: #d8f3dc;
+    background-color: #f0f8f1;
+    width: 90%;
     margin:auto;
     padding-top: 1rem;
     padding-bottom: 2rem;
-    width: 100%;
+    
     height: auto;
 } 
 .title-gallery {
@@ -17,4 +18,4 @@
     margin: auto;
     margin-bottom: 1rem;
 } 
- 
+  
