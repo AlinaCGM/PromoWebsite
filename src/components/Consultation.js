@@ -21,11 +21,11 @@ function Consultation() {
     <div id="consultation" className=" consultation flex ">
 
 
-<div class="row pictures  align-bottom">
+      <div class="row pictures  align-bottom">
               <div class="container-consultation ">
                   <div class="row content-cons">
-                      <div class=" underline"> <h1 className=" consultation-title">FREE CONSULTATION</h1>
-                      </div>
+                            <div class=" underline"> <h1 className=" consultation-title">FREE CONSULTATION</h1>
+                            </div>
                            <div class="row common-col ">
                              <div class="col-6 col-md-6 col-lg-6 name ">
                               <p className="consult-text" >NAME</p> 
@@ -47,7 +47,7 @@ function Consultation() {
                            <p className="consult-text">YOUR MESSAGE</p>  
                              </div>
                              
-                           </div>
+                          </div>
                 </div>
               </div>
               </div>

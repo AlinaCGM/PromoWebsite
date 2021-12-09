@@ -3,7 +3,7 @@ import "./Footer.css";
 // import { Button } from "./Button";
 // import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
-import Contact from "./ContactUsForm";
+
 
 
 
@@ -24,10 +24,7 @@ function Footer() {
             <img className="img_logo " src="/images/logo 2.jpg" path="/about" alt=""/>
           </div>
           </div>
-          <div class="footer-link-items">
-            <h2>Kontakta oss</h2>
-            <Contact lg={3} class="text-lg-center pb-5 pt-5 " />
-          </div>
+          
         </div>
       </div>
       <section class="social-media">
