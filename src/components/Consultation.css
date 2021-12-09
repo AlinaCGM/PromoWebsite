@@ -1,73 +1,75 @@
 .consultation {
-    background-color: rgb(173, 202, 176);
-    width: 90%;
-    height:50vh;
-    margin: auto;
-    /* margin-top: 6rem; */
-    margin-bottom: 4rem;
+  background-color: rgb(173, 202, 176);
+  width: 90%;
+  height: 50vh;
+  margin: auto;
+  /* margin-top: 6rem; */
+  margin-bottom: 4rem;
 }
 
 /* .content-cons {
     width: 100%;
     height:200px;
 } */
-.common-col { 
 
-    width: 100%;
-    height:100px;
-    border-top:2px solid rgb(204, 223, 206);
+.background-form {
+  background-color: rgb(173, 202, 176);
+}
+.common-col {
+  width: 100%;
+  height: 100px;
+  border-top: 2px solid rgb(204, 223, 206);
 }
 .column-last {
-    border-bottom:2px solid rgb(204, 223, 206);
+  border-bottom: 2px solid rgb(204, 223, 206);
 }
 .first-section {
-    padding-top: 4rem;
+  padding-top: 4rem;
 }
 .consultation-title {
-    font-size: 22px;
+  font-size: 22px;
 }
 .underline {
-    height: 110px;
+  height: 110px;
 }
 
-@media (min-width: 425px) { 
-    .underline {
-        height: 100px;
-    }
+@media (min-width: 425px) {
+  .underline {
+    height: 100px;
+  }
 }
 
 @media (min-width: 768px) {
-    .consultation { 
-        height:60vh; 
-    }
-    .underline {
-        height: 150px;
-    }
+  .consultation {
+    height: 60vh;
+  }
+  .underline {
+    height: 150px;
+  }
 }
 @media (min-width: 1440px) {
-    .consultation {
-        height:70vh;
-    
-    }
-    .consultation-title {
-        font-size: 26px;
-    }
-    .underline {
-        height: 200px;
-    }
+  .consultation {
+    height: 70vh;
+  }
+  .consultation-title {
+    font-size: 26px;
+  }
+  .underline {
+    height: 200px;
+  }
 }
 @media (min-width: 2560px) {
-    .consultation {
-        width: 90%;
-        height:40vh;
-    }
-    .common-col{
-        width:80%;
-    }
-    .consultation-title {
-        font-size: 56px;
-    }
-    .underline {
-        height: 300px;
-    }
+  .consultation {
+    width: 90%;
+    height: 40vh;
+  }
+  .common-col {
+    width: 80%;
+  }
+  .consultation-title {
+    font-size: 56px;
+  }
+  .underline {
+    height: 300px;
+  }
 }

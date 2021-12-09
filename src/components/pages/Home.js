@@ -11,6 +11,7 @@ import HomeImages from "../HomeImages";
 import MassageHome from "../MassageHome";
 import Consultation from "../Consultation";
 import PriceTable from "../PriceTable";
+import Contact1 from "../Consultation1";
 
 
 
@@ -27,6 +28,7 @@ function Home() {
     <Massage/> */}
     <PriceTable/>
     <Consultation/>
+    <Contact1/>
     {/* <ImageSlide/> */}
     {/* <BlogPage/>   */}
     
