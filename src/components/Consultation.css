@@ -38,7 +38,7 @@
 
 @media (min-width: 768px) {
     .consultation { 
-        height:60vh;
+        height:60vh; 
     }
     .underline {
         height: 150px;
@@ -47,8 +47,27 @@
 @media (min-width: 1440px) {
     .consultation {
         height:70vh;
+    
+    }
+    .consultation-title {
+        font-size: 26px;
     }
     .underline {
         height: 200px;
+    }
+}
+@media (min-width: 2560px) {
+    .consultation {
+        width: 90%;
+        height:40vh;
+    }
+    .common-col{
+        width:80%;
+    }
+    .consultation-title {
+        font-size: 56px;
+    }
+    .underline {
+        height: 300px;
     }
 }

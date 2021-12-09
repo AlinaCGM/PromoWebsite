@@ -152,6 +152,17 @@
     right: 8%;
     top: 25px;
   }
+
+.navbar-logo {
+  color:  rgb(250, 7, 88);
+  text-decoration: none;
+  font-size: 80%;
+  display: flex; 
+  align-items: right;
+  width: 9rem;
+ margin-left: 10%;
+
+}
 }
 @media screen and (max-width: 900px) {
   .sidebar.active {
@@ -160,16 +171,58 @@
 
   .sidebar-item a span {
     display: block;
-  }
+  } 
 }
-@media (min-width:1440px) {
+@media (min-width:1024px) {
   .nav-items {
     margin-right: 10%;
   }
   .nav-item a {
-   
-    font-size: 2rem;
-   
+    width: 6rem;
+    height: 4rem;
   }
   
+  .navbar-logo {
+    font-size: 100%;
+    width: 9rem;
+  }
+  .nav-item a span {
+    margin-left: 0.6rem;
+    font-size: 1rem;
+  }
 }
+@media (min-width:1440px) {
+  .navbar-logo {
+    font-size: 150%;
+    width: 9rem;
+  }
+  .nav-items {
+    margin-right: 10%;
+  }
+  .nav-item a {
+    width: 8rem;
+    font-size: 2rem;
+  }
+  .nav-item a span {
+    margin-left: 0.6rem;
+    font-size: 1.5rem;
+  }
+}
+
+ @media (min-width:2560px) {
+  .navbar-logo {
+    font-size: 250%;
+
+  }
+  .nav-items {
+    margin-right: 10%;
+  }
+  .nav-item a {
+    width: 12rem;
+    font-size: 2rem;
+  }
+  .nav-item a span {
+    margin-left: 0.6rem;
+    font-size: 2.2rem;
+  }
+} 

@@ -68,6 +68,9 @@
 .but_services {
     width: 30%;
 }
+/* .but_services:hover {
+   background-color: rgb(139, 27, 83);
+} */
 .link_services {
     text-decoration: none;
     color:rgb(233, 223, 223);
@@ -250,11 +253,11 @@
         height: 500px;
     }
     .title_services {
-        font-size: 24px;
+        font-size: 45px;
         
       }
       .title_content {
-        font-size: 10px;
+        font-size: 35px;
          
       }
       .but_services {
@@ -263,15 +266,22 @@
     .golden-text {
        
         height: 100px;
-        margin-top: 1rem;
+        margin-top: 1rem; 
         font-size: 56px;
      }
      .golden-el {
-        height: 250px;
+        height: 300px;
     }
      .text-center {
       
         font-size: 36px;
      }
+     .but_services {
+         height:80px;
+        width: 30%;
+    }
+    .link_services {
+        font-size: 35px;
+    }
 } 
 

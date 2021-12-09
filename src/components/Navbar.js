@@ -24,7 +24,7 @@ function Navbar() {
  
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth < 1100
+      if (window.innerWidth < 1024
         ) {
         setMobile(true);
       } else {
