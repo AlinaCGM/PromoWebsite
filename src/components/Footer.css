@@ -2,18 +2,18 @@
   
     background-color:#495057;
     width: 90%;
+    height: 35vh; 
     margin: auto;
     padding: 2rem 0 2rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     margin-top: -1rem;
-    
-    
+  
   }
   
-  .img_logo {
+  .img_logo { 
     width: 200px;
     height: auto;
     padding-right:2rem;
@@ -100,7 +100,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 70px;
+    width: 70px;  
   }
   
   .social-logo {
@@ -129,29 +129,21 @@
     justify-content: center;
    
   } 
-  @media (min-width: 767px) {
+  
+   @media  (min-width: 375px) {
     .footer-container {
-      padding-right: 2rem;
-      
+      height: 40vh; 
     }
-    .form-control {
-      max-width: 400px;
-      margin-bottom: 1rem;
-      
-    }
-  }
-   @media screen and (max-width: 650px) {
     .footer-links {
       padding-top: 2rem;
     }
-  
+   .followUs {
+     font-size: 25px;
+   }
     .footer-input {
       width: 10rem;
     }
-  
-    /* .btn {
-      width: 100%;
-    } */
+   }
   
     .footer-link-wrapper {
       flex-direction: column;
@@ -160,13 +152,23 @@
     .social-media-wrap {
       flex-direction: column;
     }
-  }  
+   
+    @media (min-width: 767px) {
+      .footer-container {
+        padding-right: 2rem;
+        
+      }
+      .form-control {
+        max-width: 400px;
+        margin-bottom: 1rem;
+        
+      }
+    }
   
   
   
   
-  
-  @media (min-width:550px) {
+  /* @media (min-width:550px) {
     .form-control {
       max-width: 60%;
       margin-bottom: 1rem;
@@ -190,7 +192,7 @@
      .footer-container {
      padding-left: 1px;
     } 
-  }
+  } */
   .text-left {
    width: 50%;
    height: 20%; 
@@ -199,4 +201,4 @@
   .phone {
     color: #fff;
     padding-bottom: 3rem;
-  }
+  } 

@@ -82,8 +82,8 @@ const Contact1 = () => {
                   placeholder="Please write a message"
                   background-color="green"
                 />
-                <div className="text-left">
-                  <Button variant="secondary" type="submit" className="rounded">
+                <div className="text-center mt-3 w-100">
+                  <Button variant="secondary" type="submit" className="rounded ">
                     Submit
                   </Button>
                 </div>

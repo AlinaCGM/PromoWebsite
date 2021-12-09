@@ -14,7 +14,7 @@ function Footer() {
       <div class="footer-links" id="links">
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
-            <h2>Följ oss</h2>
+            <h2 className="followUs">Följ oss</h2>
         
             <a href="/" target="_blank" rel="noreferrer" >Facebook</a>
             <a href="/" target="_blank" rel="noreferrer" >LinkedIn</a>
