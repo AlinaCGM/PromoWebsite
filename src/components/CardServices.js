@@ -20,8 +20,8 @@ function CardServices() {
   return (
 
 <div id="" className=" cardservices-box">
-
-  <div className="blog-card ">
+ <div className="sakura"> <p className="text-center sakura-text">WHAT WE OFFER</p> </div>
+  <div className="blog-card "> 
     <div className="meta">
       <div className="photo">
       <img className="img-cs" src="../images/k1.jpg"  path="/about" alt=""/>

@@ -1,14 +1,14 @@
 import React from 'react';
 import '../../App.css';
 import AboutP from "../AboutP";
-
+import Footer from "../Footer";
 
 export default function About() {
   return (
   <div>
-  <h1 className='about' id="about">ABOUT US</h1>
+  <div className='about' id="about"></div>
   <AboutP/>
-
+  <Footer/>
   </div> 
   );
 }

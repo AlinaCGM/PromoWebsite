@@ -3,8 +3,8 @@
   }
   
  .cardservices-box {
-   background-color:#e4b4bb;
-   padding: 2rem 0 2rem 0;
+   background-color:#f5e9ea;
+   padding: 4rem 0 2rem 0;
  }
   
   $color_white: #fff;
@@ -12,7 +12,20 @@
   $color_grey: #e2e2e2;
   $color_grey_dark: #a2a2a2;
   
+ .sakura {
+   height:200px;
+  background-image: url(../images/sakura.png); 
 
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-position: right;
+
+ }
+ .sakura-text {
+   font-size: 32px;
+   color:rgb(136, 95, 129);
+   
+ }
   .blog-card {
    
     display: flex;

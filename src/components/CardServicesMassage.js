@@ -19,13 +19,13 @@ function CardServicesMassage() {
   }, [location]);
   return (
 
-<div id="" className=" cardservices3-box">
+<div id="" className=" cardservices3-box"> 
 <div className="wrapper">
-  <h1>Hälsokonsultation</h1>
+  <h1 className="sakura">YOGA and MASSAGE</h1>
   <div className="row">
   <div className="col-12  col-md-6 col-lg-4  d-flex justify-content-between mb-5" ontouchstart="this.classList.toggle('hover');">
 				<div className="container">
-					<div className="front" > <img className="services-2" src="../images/m1.jpg"  path="/about" alt=""/>
+					<div className="front" > <img className="services-2" src="../images/m11.jpg"  path="/about" alt=""/>
 						<div className="inner">
 							<p>Acirassi</p>
               <span>Lorem ipsum</span>
@@ -40,7 +40,7 @@ function CardServicesMassage() {
 			</div>
 			<div className="col-12  col-md-6 col-lg-4  d-flex justify-content-between mb-5" ontouchstart="this.classList.toggle('hover');">
 				<div className="container">
-					<div className="front" > <img className="services-2" src="../images/m2.jpg"  path="/about" alt=""/>
+					<div className="front" > <img className="services-2" src="../images/m22.jpg"  path="/about" alt=""/>
 						<div className="inner">
 							<p>Acirassi</p>
               <span>Lorem ipsum</span>
@@ -55,7 +55,7 @@ function CardServicesMassage() {
 			</div>
 			<div className="col-12  col-md-6 col-lg-4  d-flex justify-content-between mb-5" ontouchstart="this.classList.toggle('hover');">
 				<div className="container">
-					<div className="front" > <img className="services-2" src="../images/m3.jpg"  path="/about" alt=""/>
+					<div className="front" > <img className="services-2" src="../images/m33.jpg"  path="/about" alt=""/>
 						<div className="inner">
 							<p>Sohanidd</p>
               <span>Lorem ipsum</span>
@@ -70,7 +70,7 @@ function CardServicesMassage() {
 			</div>
             <div className="col-12  col-md-6 col-lg-4  d-flex justify-content-between mb-5" ontouchstart="this.classList.toggle('hover');">
 				<div className="container">
-					<div className="front" > <img className="services-2" src="../images/m4.jpg"  path="/about" alt=""/>
+					<div className="front" > <img className="services-2" src="../images/m44.jpg"  path="/about" alt=""/>
 						<div className="inner">
 							<p>Acirassi</p>
               <span>Lorem ipsum</span>
@@ -85,7 +85,7 @@ function CardServicesMassage() {
 			</div>
             <div className="col-12  col-md-6 col-lg-4  d-flex justify-content-between mb-5" ontouchstart="this.classList.toggle('hover');">
 				<div className="container">
-					<div className="front" > <img className="services-2" src="../images/m5.jpg"  path="/about" alt=""/>
+					<div className="front" > <img className="services-2" src="../images/m55.jpg"  path="/about" alt=""/>
 						<div className="inner">
 							<p>Acirassi</p>
               <span>Lorem ipsum</span>
@@ -100,7 +100,7 @@ function CardServicesMassage() {
 			</div>
             <div className="col-12  col-md-6 col-lg-4  d-flex justify-content-between mb-5" ontouchstart="this.classList.toggle('hover');">
 				<div className="container">
-					<div className="front" > <img className="services-2" src="../images/m6.jpg"  path="/about" alt=""/>
+					<div className="front" > <img className="services-2" src="../images/m66.jpg"  path="/about" alt=""/>
 						<div className="inner">
 							<p>Acirassi</p>
               <span>Lorem ipsum</span>
