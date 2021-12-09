@@ -154,6 +154,37 @@
       }
      
 } 
+@media (min-width: 552px)  {
+    .cont-services {
+        width:90%;
+        margin: 0 auto;
+        height:30rem;
+        
+    } 
+    .one, .two, .three {
+        width: 100%;
+    
+    }
+    .golden-text {
+
+        margin-top: 5%;
+        font-size: 26px;
+      
+     }
+    .title_services {
+        font-size: 14px;
+      
+      }
+      .title_content {
+        font-size: 10px;
+     
+      }
+      .golden-el {
+        margin-top: 1rem;
+          height: 150px;
+      }
+     
+} 
 @media (min-width: 768px)  {
     .cont-services {
         width:90%;
@@ -189,6 +220,7 @@
         width:90%;
         margin: 0 auto;
         height:30rem;
+        margin-top: 2rem;
         
     } 
     .golden-text {

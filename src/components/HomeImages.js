@@ -23,8 +23,10 @@ function HomeImages() {
 
     <div class="row pictures  ">
               <div class="container-homeImages">
-                  <div class="row underline">
-                      <div class=" underline"> <h1 className=" golden-text homeImages-title">WHY WE ARE THE BEST</h1>
+                  <div class="row ">
+                   <div class=" underline">
+                      <div > <h1 className=" golden-text homeImages-title">WHY WE ARE THE BEST</h1>
+                      </div>
                       </div>
                            <div class="row">
                              <div class="col r1-1 col-all1 ">

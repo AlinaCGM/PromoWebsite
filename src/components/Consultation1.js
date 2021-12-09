@@ -37,10 +37,10 @@ const Contact1 = () => {
             <Form onSubmit={handleOnSubmit}>
               <Form.Group controlId="exampleForm.ControlInput1" id="contactus">
                 <div class="row common-col ">
-                  <div class="col-6 col-md-6 col-lg-6 name  ">
+                  <div class="col-6 col-md-6 col-lg-6 name px-0 ">
                     <Form.Control
-                      className="background-form"
-                      type="name"
+                      className="background-form-name"
+                      type="name" 
                       id="name"
                       name="from_name"
                       required
@@ -69,12 +69,12 @@ const Contact1 = () => {
                 />
               </Form.Group>
 
-              <Form.Group className="mb-3 form_control1">
+              <Form.Group className=" form_control1">
                 <Form.Control
                   className="background-form "
                   as="textarea"
                   type="message"
-                  rows={6}
+                  rows={4}
                   cols={10}
                   id="message"
                   name="message"

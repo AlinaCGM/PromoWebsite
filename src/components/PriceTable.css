@@ -4,7 +4,7 @@
     width: 90%;
     height:145vh;
     margin: auto;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 } 
 
 /* .container-price {
@@ -96,9 +96,11 @@
     }
     .underline1 {
  
-        height: 130px;
+        height: 150px;
     }
 }
+
+
 @media (min-width:1024px) {
     .price  {
         background-color: #eeddd3;
@@ -130,7 +132,7 @@
     .price  {
        
         width: 90%;
-        height:75vh;
+        height:85vh;
         margin: auto;
         margin-top: 15rem;
     } 
@@ -139,14 +141,14 @@
         height: 20px;
     }
     .underline1 {
-        height: 200px;
+        height: 180px;
     }
     .price-col{
     
         width: 100%;
         height: 400px;
         margin: auto;
-        margin-top: 1rem;
+        
         margin-bottom:1rem
       
     }
@@ -199,7 +201,7 @@
 @media (min-width:1700px) {
     .price  {
       
-        height:60vh;
+        height:70vh;
         margin: auto;
         margin-top: 10rem;
     } 

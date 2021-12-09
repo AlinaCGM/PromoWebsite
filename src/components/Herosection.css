@@ -82,7 +82,34 @@
       font-size:15px;
     }
   }  
-  
+  @media (min-width: 550px) {
+    .hero-container {
+       background-size: 100% auto;
+       margin: auto;
+       margin-top: -5%; 
+       margin-bottom:3%;
+       height: 40vh;  
+   } 
+   .hero-title{ 
+     font-size: 35px;
+     margin-top: 5%; 
+   }
+   .hero-title2{ 
+     font-size: 25px;
+     margin-top: 15%; 
+     font-weight: 600;
+   }
+   .but_hero {
+     position: absolute;
+     bottom:15%;
+     left:10%;
+     width:25%;
+     height:15%;
+   }
+   .but_text {
+     font-size:15px;
+   }
+ }  
   @media (min-width: 768px) {
      .hero-container {
   
