@@ -201,7 +201,7 @@
 @media (min-width:1700px) {
     .price  {
       
-        height:70vh;
+        height:75vh;
         margin: auto;
         margin-top: 10rem;
     } 
@@ -224,7 +224,7 @@
     .price  {
        
         width: 90%;
-        height:50vh;
+        height:70vh;
         margin: auto;
         margin-top: 15rem;
     } 
