@@ -161,6 +161,41 @@
         line-height:2rem; 
     } 
 }
+@media (min-width:1440px) {
+    .price  {
+       
+        width: 90%;
+        height:55vh;
+        margin: auto;
+        margin-top: 15rem;
+    } 
+    .price-title {
+        font-size: 26px;
+        height: 20px;
+    }
+    .underline1 {
+        height: 300px;
+    }
+    .price-col{
+    
+        width: 100%;
+        height: 400px;
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom:1rem
+      
+    }
+    .title_price {
+        font-size: 22px;  
+    }
+    .digits_price {
+        font-size: 20px;  
+    }
+    .text_price {
+        font-size: 18px; 
+        line-height:2rem; 
+    } 
+}
 @media (min-width:2560px) {
     .price  {
        

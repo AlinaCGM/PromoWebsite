@@ -176,7 +176,7 @@
         width: 50%;
     }
     .golden-text {
-  
+     
         font-size: 26px;
      }
      .golden-el {
@@ -215,7 +215,7 @@
         width:90%;
         margin: 0 auto;
         height:35rem;
-     
+      
     } 
     .one, .two, .three {
         width: 100%;
@@ -238,6 +238,8 @@
         font-size: 36px;
      }
      .golden-el {
+        
+        background-size: 35%;
         height: 150px;
     }
 } 
@@ -271,6 +273,7 @@
      }
      .golden-el {
         height: 300px;
+        background-size: 30%;
     }
      .text-center {
       
