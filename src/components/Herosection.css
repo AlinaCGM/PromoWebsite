@@ -14,7 +14,7 @@
     display: flex;
     object-fit: cover;
     z-index: 1;
-  
+   
 }
 .but_hero {
   position: absolute;
@@ -22,11 +22,11 @@
   left:10%;
   width:30%;
   height:15%;
- 
+  
 }
 
 .link_hero {
-  color: rgb(117, 110, 110);
+  color: rgb(95, 27, 55);
   text-decoration: none;
 }
 
@@ -39,6 +39,8 @@
 }
 .but_text {
   font-size:10px;
+  background-color: pink;
+  
 }
  .hero-title {
      position: absolute;

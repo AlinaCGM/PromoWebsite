@@ -18,9 +18,9 @@ function  HeroSection () {
           <h3 className="hero-title"> Welcome to our
           </h3>
           <h1 className="hero-title2"> MASSAGE THERAPHY CENTER</h1>
-          <Button className="but_hero" variant="outline-secondary" > 
+          <Button className="but_hero" variant="btn-outline-light" > 
           <Link to="/services" className="link_hero"> 
-          <p className="but_text">more</p>
+          <p className="but_text">More</p>
           </Link> 
           </Button>
             </div> 
