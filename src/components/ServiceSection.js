@@ -5,13 +5,13 @@ import './ServiceSection.css';
 import { Link } from "react-router-dom";
 import './Button.css';
 import Button from 'react-bootstrap/Button';
-// import FadeInSection from "./FadeInSection";
+ import FadeInSection from "./FadeInSection";
 
  
 
 const ServiceSection = () => {
   return ( 
-    // <FadeInSection>
+     <FadeInSection>
     <div class="cont-services icon-box" >
     
     <div class="row m-auto  ">
@@ -61,7 +61,8 @@ const ServiceSection = () => {
 
        </div>
        </div>
-    //   {/* </FadeInSection>   */}
+
+      </FadeInSection>   
   );
 };
 

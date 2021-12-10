@@ -2,13 +2,13 @@ import React from 'react';
 import '../App.css';
 import './MassageHome.css'
 import Card from 'react-bootstrap/Card';
-// import FadeInSection from "./FadeInSection";
+ import FadeInSection from "./FadeInSection";
 import 'bootstrap/dist/css/bootstrap.css';
 
 
 export default function MassaheHome() {
   return (
-        // <FadeInSection>
+         <FadeInSection>
     <div className="massage-home" id="massage-home">
        <div className="row  "> 
        
@@ -46,7 +46,7 @@ export default function MassaheHome() {
             
             </div>
         </div> 
-        // {/* </FadeInSection> */}
+         </FadeInSection> 
         
   
     );

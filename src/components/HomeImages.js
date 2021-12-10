@@ -2,8 +2,7 @@ import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import './HomeImages.css';
 import 'bootstrap/dist/css/bootstrap.css';
-
-// import FadeInSection from './FadeInSection';
+ import FadeInSection from './FadeInSection';
 
 function HomeImages() {
   const location = useLocation();
@@ -18,6 +17,7 @@ function HomeImages() {
     }
   }, [location]);
   return (
+    <FadeInSection>
     <div id="homeImages" className=" homeImages-container flex ">
 
 
@@ -63,7 +63,7 @@ function HomeImages() {
 
     </div>
          
-         
+    </FadeInSection> 
         );
       }
      

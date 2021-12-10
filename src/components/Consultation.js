@@ -3,7 +3,6 @@ import { useLocation } from "react-router-dom";
 import './Consultation.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
-// import FadeInSection from './FadeInSection';
 
 function Consultation() {
   const location = useLocation();
@@ -18,6 +17,7 @@ function Consultation() {
     }
   }, [location]);
   return (
+  
     <div id="consultation" className=" consultation flex ">
 
 
@@ -54,7 +54,7 @@ function Consultation() {
 
 
   </div>
-         
+
          
         );
       }

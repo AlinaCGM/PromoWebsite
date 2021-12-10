@@ -6,8 +6,7 @@ import { Link } from "react-router-dom";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button'
-
-// import FadeInSection from './FadeInSection';
+ import FadeInSection from './FadeInSection';
 
 function PriceTable() {
   const location = useLocation();
@@ -22,6 +21,7 @@ function PriceTable() {
     }
   }, [location]);
   return (
+    <FadeInSection>
     <div id="price" className=" price flex ">
 
 
@@ -73,36 +73,9 @@ function PriceTable() {
      </div>
 
 
-{/* 
-
-              <div class="container-price align-items-center ">
-                  <div class="row content-price justify-content-evenly">
-                      <div class=" underline"> <h1 className=" price-title">OUR PRICE TABLE</h1>
-                      </div>
-                           <div class="row common-colums justify-content-evenly ">
-                             <div class="col-4 col-md-4 col-lg-4 price1 price-col">
-                              
-                             </div>
-                             <div class="col-4 col-md-4 col-lg-4 price2 price-col">
-                             
-                             </div>
-                             <div class="col-4 col-md-4 col-lg-4 price3 price-col">
-                           
-                             </div>
-                            
-                           </div>
-
-                          
-
-                             
-                           
-                </div>
-              </div> */}
-              
-
               </div>
   </div>
-         
+          </FadeInSection>  
          
         );
       }

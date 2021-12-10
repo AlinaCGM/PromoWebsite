@@ -4,6 +4,9 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import emailjs from "emailjs-com";
 import "./Consultation.css";
+import FadeInSection from './FadeInSection';
+
+
 
 const SERVICE_ID = process.env.REACT_APP_SERVICEID;
 const TEMPLATE_ID = process.env.REACT_APP_TEMPLATEID;
@@ -26,6 +29,7 @@ const Contact1 = () => {
   };
 
   return (
+    <FadeInSection>
     <div id="consultation" className=" consultation flex ">
       <div class="row pictures  align-bottom">
         <div class="container-consultation ">
@@ -93,6 +97,7 @@ const Contact1 = () => {
         </div>
       </div>
     </div>
+      </FadeInSection>
   );
 };
 

@@ -24,11 +24,19 @@
   height:15%;
  
 }
+
 .link_hero {
   color: rgb(117, 110, 110);
   text-decoration: none;
 }
 
+
+.link_hero:hover {
+  color: rgb(245, 237, 242);
+}
+.link_hero:active {
+  color: rgb(19, 16, 16);
+}
 .but_text {
   font-size:10px;
 }
