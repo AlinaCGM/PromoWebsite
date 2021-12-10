@@ -49,7 +49,7 @@ function Footer() {
   
 
 
-  <div class="website-rights mx-auto ">NexTek © 2021 </div>
+  <div class="website-rights mx-auto "> © 2021 </div>
 
      
     </div>
