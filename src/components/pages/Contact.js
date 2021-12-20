@@ -1,12 +1,14 @@
 import React from 'react';
 import '../../App.css';
+import HeroSection from '../Herosection.js';
 
 
  function Contact() {
   return (
   <div>
-  <h1 className='contact' id="contact">CONTACT US</h1>
- CONTACT
+  <div className='contact' id="contact"></div>
+  
+ <HeroSection/>
   </div> 
   );
 }
