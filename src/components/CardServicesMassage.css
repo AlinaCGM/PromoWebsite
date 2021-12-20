@@ -6,6 +6,9 @@
             box-sizing: border-box; 
   }
   .cardservices3-box {
+    width: 90%;
+    height: auto;
+    margin: auto;
       background-color: #f3f3e7;
       margin-top: -1.6rem; 
       padding-top: 2rem;
@@ -205,6 +208,6 @@
   }
 
   .massage-blog {
-    width: 80%;
+    width: 90%;
     height:200px;
   }

@@ -1,7 +1,6 @@
 .hero-container {
     position: relative;
     background-image: url(../images/woman-hero.jpg); 
-    
     margin: auto;
     margin-top: -10%;
     margin-bottom: 1rem;

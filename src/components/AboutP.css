@@ -1,13 +1,12 @@
-.AboutP-container {
-    background-color: #e1e4d2;
-    position: relative;
-    z-index: 1;
+.servicesAbout-container {
+
     width: 90%;
-    height: 50vh;
-    margin: auto;
+    position: relative;
     height: auto;
+    margin: auto;
     color: black;
-   
+    z-index: 1;
+
 }
 
 .decorAboutTitle {
@@ -22,6 +21,7 @@
     letter-spacing: 0.5px;
     line-height: 2rem;  
     padding: 2rem;
+    text-align: justify;
 }
 
 .colum-about{
@@ -81,43 +81,20 @@
     background-position: center;
   }
 
-  /* @media (min-width: 270px) and (max-width:767px) {
-  
-    .informationServices-about {
-        font-size: 12px;
-        font-family: 'Playfair Display', serif;;
-        color: rgb(126, 125, 125);
-        letter-spacing: 0.5px;
-        line-height: 1.2rem; 
-    }
-   
-    .colum-img1, .colum-img2, .small-about, .colum-img3, .colum-img4, .small-about2 {
-      
-        height: 300px;
-       
-    }
-    
-}   */ */
   h3 {
     font-family: 'Playfair Display', serif;
  } 
 
 
  @media (min-width: 768px)  {
-   .servicesAbout-container {
-       width: 100%;
-       height: auto;
-   }
+
     .small-about {
         display:none;
     }
 }  
 
 @media (min-width: 1024px)  {
-    .servicesAbout-container {
-        width: 100%;
-        height: auto;
-    }  
+
     .small-about,  .small-about2 {
         display:none;
     }

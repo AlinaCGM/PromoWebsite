@@ -2,7 +2,7 @@
   
     background-color:#495057;
     width: 90%;
-    height: 40vh; 
+    height: auto; 
     margin: auto;
     display: flex;
     flex-direction: column;

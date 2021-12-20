@@ -18,7 +18,7 @@ function AboutP() {
     }
   }, [location]);
   return (
-    <div id="" className=" servicesAbout-container flex ">
+    <div id="" className="servicesAbout-container flex ">
      <div className="decoraction-title"> <p className="decorAboutTitle text-center"> WHO WE ARE</p></div>
 
     <div class="row pictures justify-content-center ">
@@ -26,14 +26,13 @@ function AboutP() {
                 <img className="  circle" src="../images/circle2.png" path="/about" alt=""/>
                </div> 
                <div class="col-12 col-md-6 col-lg-6 colum-about  ">
-               <p className="informationServices-about text-center">
+               <p className="informationServices-about ">
                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                Sed malesuada molestie nulla, vel hendrerit nulla suscipit sed.
                 Donec diam leo, efficitur sit amet finibus ac.</p>  
            
                </div> 
     </div>
-    F
     
     <div className="small-about col-12  colum-about ">
     <img className=" circle" src="../images/circle2.png" path="/about" alt=""/>
@@ -63,7 +62,7 @@ function AboutP() {
                  <img className="  circle" src="../images/circle2.png" path="/about" alt=""/> 
                </div> 
                <div class="col-12 col-md-6 col-lg-6 colum-about  ">
-               <p className="informationServices-about text-center">
+               <p className="informationServices-about ">
                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                Sed malesuada molestie nulla, vel hendrerit nulla suscipit sed.
                 Donec diam leo, efficitur sit amet finibus ac.</p>  
