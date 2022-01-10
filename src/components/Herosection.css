@@ -15,30 +15,56 @@
     z-index: 1;
    
 }
-.but_hero {
-  position: absolute;
-  bottom:20%;
-  left:10%;
-  width:30%;
-  height:15%;
-  
-}
+
 
 .link_hero {
-  color: rgb(95, 27, 55);
+  position: absolute;
+  bottom:10%;
+  left:20%;
   text-decoration: none;
+  width:20%;
+  transition: all 0.5s;
+  cursor: pointer;
 }
 
 
 .link_hero:hover {
-  color: rgb(245, 237, 242);
+  color: rgb(73, 26, 55);
+  padding-right: 25px;
 }
 .link_hero:active {
   color: rgb(19, 16, 16);
 }
+ span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+ span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.link:hover span {
+  padding-right: 25px;
+}
+
+.link:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 .but_text {
+  
   font-size:10px;
-  background-color: pink;
+  border-radius: 15px;
+  background-color: rgb(177, 122, 131);
+  box-shadow: 2px 2px rgb(156, 135, 135);
   
 }
  .hero-title {

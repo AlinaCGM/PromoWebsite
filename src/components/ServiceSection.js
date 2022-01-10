@@ -3,8 +3,8 @@ import { Card } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './ServiceSection.css';
 import { Link } from "react-router-dom";
-import './Button.css';
-import Button from 'react-bootstrap/Button';
+// import './Button.css';
+// import Button from 'react-bootstrap/Button';
  import FadeInSection from "./FadeInSection";
 
  
@@ -30,9 +30,9 @@ const ServiceSection = () => {
   
   <Card.Body >
     <h2 className="title_services">SERVICE 1</h2>
-    <p className="title_content">Lorem ipsum dolor sit amet,</p>
+    <p className="title_content">Lorem ipsum </p>
   </Card.Body>
-  <Button className="but_services" variant="outline-secondary" > <Link to="/services" className="link_services">more</Link> </Button>
+ <Link to="/services" className="link_services">more</Link>
 </Card> 
      </div>
 
@@ -41,9 +41,9 @@ const ServiceSection = () => {
 
   <Card.Body>
     <h2 className="title_services">SERVICE 2</h2>
-    <p className="title_content">Lorem ipsum dolor sit amet,</p>
+    <p className="title_content">Lorem ipsum </p>
   </Card.Body>
-  <Button className="but_services" variant="outline-secondary"> <Link to="/services"  className="link_services">more</Link> </Button>
+ <Link to="/services"  className="link_services">more</Link> 
 </Card>
      </div>
 
@@ -52,9 +52,9 @@ const ServiceSection = () => {
 
   <Card.Body>
     <h2 className="title_services">SERVICE 3</h2> 
-    <p className="title_content">Lorem ipsum dolor sit amet,</p>
+    <p className="title_content">Lorem ipsum</p>
   </Card.Body>
-  <Button className="but_services" variant="outline-secondary"><Link to="/services"  className="link_services">more</Link> </Button>
+<Link to="/services"  className="link_services">more</Link> 
 </Card>
      </div>
 
@@ -62,7 +62,7 @@ const ServiceSection = () => {
        </div>
        </div>
 
-      </FadeInSection>   
+      </FadeInSection>    
   );
 };
 
