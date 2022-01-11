@@ -5,10 +5,7 @@
     margin-bottom: 1rem;
     height:auto;
     overflow:hidden; 
-    background-image: url(../images/wave.png); 
-    background-size: 20%;
-    background-repeat: no-repeat;
-    background-position: centertop center;
+   
    
 } 
 .golden-el {   
@@ -16,12 +13,15 @@
     height:auto;
     margin: auto;
     margin-bottom: 1rem;
-   
+    background-image: url(../images/pink2.png); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top right;
     
 }
 .title_services {
   font-size: 20px;
-  color: rgb(233, 223, 223);
+  color: rgb(248, 246, 246);
   font-family: 'Cormorant Garamond', serif;
   font-weight: 600;
 }
@@ -31,9 +31,9 @@
 }
 .golden-text {
    height: 100px;
-   color:rgb(238, 227, 233);
+   color:rgb(109, 11, 65);
    font-size: 32px;
-   text-shadow: 2px 2px rgb(138, 97, 97);
+   text-shadow: 2px 2px rgb(221, 200, 200);
  
 }
 .text-center {
