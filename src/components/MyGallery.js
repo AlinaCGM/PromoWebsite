@@ -2,16 +2,16 @@ import React from 'react';
 import '../App.css';
 import './MyGallery.css'
 import Card from 'react-bootstrap/Card';
-// import FadeInSection from "./FadeInSection";
+
 import 'bootstrap/dist/css/bootstrap.css';
 
 
 export default function MyGallery() {
   return (
-        // <FadeInSection>
+     
     <div className="mygallery" id="mygallery">
       <div className="decoraction-title"> <p className="decorAboutTitle text-center"> GALLERY</p></div>
-       <div className="row "> 
+       <div className="row size-smaller"> 
        
        
             <div className="col-12 card_p  col-md-6 col-lg-3 justify-content-center ">
@@ -91,7 +91,7 @@ export default function MyGallery() {
             
             </div>
         </div> 
-        // {/* </FadeInSection> */}
+       
         
   
     );

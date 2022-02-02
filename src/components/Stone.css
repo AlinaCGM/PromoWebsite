@@ -22,7 +22,7 @@
   width:100%;
   height:40vh;
    border: none; 
-  color:rgb(127, 131, 129);
+  color: rgb(39, 20, 28);;
  
 }
 .card_right {
@@ -38,19 +38,21 @@
     font-size: 10px;
     line-height: 14px;
     font-family: 'Cormorant Garamond', serif;
+   
+    letter-spacing: 1px;
 
 }
 .stone-text-r {
     font-size: 9px;
     text-align: left;
     font-family: 'Cormorant Garamond', serif;
+    line-height: 1rem;
+    letter-spacing: 1px;
 }
 .stone-title {
     font-size: 12px;
-
 }
 .card_right {
-
     text-align: center;
 }
 
@@ -69,8 +71,6 @@
         background-color: transparent;
         width: 100%;
         height:30vh;
-        color:rgb(127, 131, 129);
-       
       }
    
       h2 {
@@ -94,8 +94,6 @@
         background-color: transparent;
         width: 100%;
         height:40vh;
-        color:rgb(127, 131, 129);
-       
       }
     
       .stone-text-l { 
@@ -129,9 +127,7 @@
         
         background-color: transparent;
         width: 100%;
-        height:40vh;
-        color:rgb(127, 131, 129);
-       
+        height:40vh; 
       }
     
       .stone-text-l { 
@@ -145,10 +141,8 @@
         text-align: center;
     
     }
-    .stone-title {
-       
+    .stone-title {  
         font-size: 18px;
-    
     }
 }  
 
@@ -165,9 +159,7 @@
     .card_left, .card_right, .card_center {
         background-color: transparent;
         width: 100%;
-        height:50vh;
-        color:rgb(127, 131, 129);
-       
+        height:50vh; 
       }
     
       .stone-text-l { 
@@ -200,9 +192,7 @@
     .card_left, .card_right, .card_center {
         background-color: transparent;
         width: 100%;
-        height:50vh;
-        color:rgb(127, 131, 129);
-       
+        height:50vh; 
       }
     
       .stone-text-l { 
@@ -225,8 +215,9 @@
 @media (min-width:2560px) {
     .massage-home {
         width: 90%;
-        height:55vh;
+        height:auto;
         margin: auto;
+        margin-bottom: 3rem;
         padding-top: 2rem;
        
     }
@@ -236,21 +227,19 @@
         
         background-color: transparent;
         width: 100%;
-        height:50vh;
-        color:rgb(127, 131, 129);
-       
+        height:50vh; 
       }
     
       .stone-text-l { 
         padding-top: 1rem;
         font-size: 50px;
-        line-height: 10rem;
+        line-height: 7rem;
     
     }
     .stone-text-r {
         font-size: 40px;
         text-align: center;
-    
+        line-height: 5rem;
     }
     .stone-title {
         padding-top: 5rem;

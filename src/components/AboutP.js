@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 import './AboutP.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
-// import FadeInSection from './FadeInSection';
+
 
 function AboutP() {
   const location = useLocation();
@@ -18,12 +18,14 @@ function AboutP() {
     }
   }, [location]);
   return (
-    <div id="" className="servicesAbout-container flex ">
+    <div id="servicesAbout" className="servicesAbout-container flex ">
+    {/* <img className="first-hero" src="../images/woman22.jpg" path="/about" alt=""/> */}
+      <div className='second-about-container'>
      <div className="decoraction-title"> <p className="decorAboutTitle text-center"> WHO WE ARE</p></div>
 
     <div class="row pictures justify-content-center ">
                 <div class="col-12 col-md-6 col-lg-6 col-xl-6 colum-about colum-img1  ">
-                <img className="  circle" src="../images/circle2.png" path="/about" alt=""/>
+                {/* <img className="  circle" src="../images/circle2.png" path="/about" alt=""/> */}
                </div> 
                <div class="col-12 col-md-6 col-lg-6 colum-about  ">
                <p className="informationServices-about ">
@@ -31,11 +33,11 @@ function AboutP() {
                Sed malesuada molestie nulla, vel hendrerit nulla suscipit sed.
                 Donec diam leo, efficitur sit amet finibus ac.</p>  
            
-               </div> 
+               </div>  
     </div>
     
     <div className="small-about col-12  colum-about ">
-    <img className=" circle" src="../images/circle2.png" path="/about" alt=""/>
+    {/* <img className=" circle" src="../images/circle2.png" path="/about" alt=""/> */}
     </div>
     
     
@@ -50,8 +52,8 @@ function AboutP() {
     
     
            
-               <div class="col-12 col-md-6 col-lg-6 col-xl-6 colum-about colum-img2 justify-content-start last">
-                <img className="  circle" src="../images/circle.png" path="/about" alt=""/> 
+               <div class="col-12 col-md-6 col-lg-6 col-xl-6 colum-about colum-img2  last">
+                {/* <img className="  circle" src="../images/circle.png" path="/about" alt=""/>  */}
                </div> 
     </div>
 
@@ -59,9 +61,9 @@ function AboutP() {
 
     <div class="row pictures justify-content-center ">
                 <div class="col-12 col-md-6 col-lg-6 col-xl-6 colum-about colum-img3  ">
-                 <img className="  circle" src="../images/circle2.png" path="/about" alt=""/> 
+                 {/* <img className="  circle" src="../images/circle2.png" path="/about" alt=""/>  */}
                </div> 
-               <div class="col-12 col-md-6 col-lg-6 colum-about  ">
+               <div class="col-12 col-md-6 col-lg-6 col-xl-6 colum-about  ">
                <p className="informationServices-about ">
                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                Sed malesuada molestie nulla, vel hendrerit nulla suscipit sed.
@@ -72,7 +74,7 @@ function AboutP() {
     
     
     <div className="small-about col-12  colum-about ">
-    <img className=" circle" src="../images/circle2.png" path="/about" alt=""/>
+    {/* <img className=" circle" src="../images/circle2.png" path="/about" alt=""/> */}
     </div>
     
     
@@ -87,12 +89,12 @@ function AboutP() {
     
     
            
-               <div class="col-12 col-md-6 col-lg-6 col-xl-6 colum-about colum-img4 justify-content-start last">
-               <img className=" circle" src="../images/circle.png" path="/about" alt=""/>
+               <div class="col-12 col-md-6 col-lg-6 col-xl-6 colum-about colum-img4  last">
+               {/* <img className=" circle" src="../images/circle.png" path="/about" alt=""/> */}
                </div> 
     </div>
     
-   
+    </div>
     </div>
          
          

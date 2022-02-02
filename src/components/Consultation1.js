@@ -4,7 +4,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import emailjs from "emailjs-com";
 import "./Consultation.css";
-import FadeInSection from './FadeInSection';
+
 
 
 
@@ -29,7 +29,7 @@ const Contact1 = () => {
   };
 
   return (
-    <FadeInSection>
+    
     <div id="consultation" className=" consultation flex ">
       <div class="row pictures  align-bottom">
         <div class="container-consultation ">
@@ -43,7 +43,7 @@ const Contact1 = () => {
                 <div class="row common-col ">
                   <div class="col-6 col-md-6 col-lg-6 name px-0 ">
                     <Form.Control
-                      className="background-form-name"
+                      className="background-form"
                       type="name" 
                       id="name"
                       name="from_name"
@@ -97,7 +97,7 @@ const Contact1 = () => {
         </div>
       </div>
     </div>
-      </FadeInSection>
+
   );
 };
 

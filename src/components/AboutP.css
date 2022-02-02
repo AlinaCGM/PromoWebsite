@@ -1,42 +1,64 @@
 .servicesAbout-container {
 
-    width: 90%;
+    width: 100%;
+   
     position: relative;
+    background-image: url(../images/pawel-czerwinski-qztBRIrU1FM-unsplash.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
     height: auto;
     margin: auto;
     color: black;
     z-index: 1;
 
 }
+.second-about-container {
+    width:80%;
+  
+    margin: auto;
+}
 
 .decorAboutTitle {
+    padding-bottom: 1rem;
     font-size: 32px;
-    color:rgb(136, 95, 129);
-    
+    color: rgb(44, 23, 32);
+    letter-spacing: 0.5px; 
 }
 .informationServices-about {
-    font-size: 18px;
+    font-size: 14px;
     font-family: 'Playfair Display', serif;
+    background-color: rgb(243, 226, 241);
     color: rgb(87, 53, 75);
     letter-spacing: 0.5px;
     line-height: 2rem;  
     padding: 2rem;
     text-align: justify;
+
 }
 
 .colum-about{
-   
-    text-align: center;
-   
+ 
+  display:inline-block;
+text-align: center;
+
 } 
- .circle {
-     margin-top: 0.5rem;
+
+/* .first-hero {
+    object-fit: cover;
+    width:100%;
+    height:40vh;
+
+} */
+ /* .circle {
+     margin-top: 1rem;
      width: 70%;
   
- }
+ } */
 .colum-img1 {
+    width: 50%;
+    height: auto;
    
-    background-image: url(../images/crop4.png);
+    background-image: url(../images/stuff1_ccexpress.jpeg);
     background-size: 50% ;
     background-repeat: no-repeat;
     background-position:center;
@@ -45,7 +67,9 @@
 }
 
 .colum-img2 {
-    background-image: url(../images/crop6.png);
+    width: 50%;
+    height: auto;
+    background-image: url(../images/stuff2_ccexpress.jpeg);
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: center;
@@ -53,21 +77,27 @@
 
 
   .small-about {
-    background-image: url(../images/crop5.png);
+    width: 50%;
+    height: auto;
+    background-image: url(../images/stuff3_ccexpress.jpeg);
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: center;
   }
 
   .colum-img3 {
-    background-image: url(../images/crop3.png);
+    width: 50%;
+    height: auto;
+    background-image: url(../images/stuff_ccexpress.jpeg);
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .colum-img4 {
-    background-image: url(../images/crop2.png);
+    width: 50%;
+    height: auto;
+    background-image: url(../images/rsz_1rsz_michael-dagonakis-c-sbcqkapls-unsplash.jpg);
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: center;
@@ -75,23 +105,24 @@
 
 
   .small-about2 {
-    background-image: url(../images/crop1.png);
+    background-image: url(../images/rsz_m-brauer-yeymnafuyvm-unsplash_ccexpress.jpeg);
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: center;
   }
 
   h3 {
+      
     font-family: 'Playfair Display', serif;
  } 
 
 
- @media (min-width: 768px)  {
+ /* @media (min-width: 768px)  {
 
     .small-about {
         display:none;
     }
-}  
+}   */
 
 @media (min-width: 1024px)  {
 
@@ -103,7 +134,7 @@
         font-size: 20px;
     
         letter-spacing: 0.5px;
-        line-height: 2.5rem; 
+        line-height: 2rem; 
         height: auto;
     } 
 }  
@@ -122,9 +153,9 @@
     }
 
 }  
-  .last {
+  /* .last {
       margin-bottom: 1rem;
-  }
+  } */
 
   @media (min-width: 2560px)  {
     .decorAboutTitle {
@@ -142,6 +173,6 @@
     }
 
 }  
-  .last {
+  /* .last {
       margin-bottom: 10rem;
-  }
+  } */

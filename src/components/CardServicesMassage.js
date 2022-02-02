@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import "./CardServicesMassage.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Slide from 'react-reveal/Slide';
 
  
 function CardServicesMassage() {
@@ -18,10 +18,10 @@ function CardServicesMassage() {
     }
   }, [location]);
   return (
-
+	<Slide delay={400} bottom> 
 <div id="" className=" cardservices3-box"> 
 <div className="wrapper">
-  <h1 className="sakura">YOGA and MASSAGE</h1>
+  <h1 className="sakura"> MASSAGE</h1>
   <div className="row">
   <div className="col-12  col-md-6 col-lg-4  d-flex justify-content-between mb-5" ontouchstart="this.classList.toggle('hover');">
 				<div className="container">
@@ -119,6 +119,7 @@ function CardServicesMassage() {
 
 
 </div> 
+</Slide>
     );
   }
  

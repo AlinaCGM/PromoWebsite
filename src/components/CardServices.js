@@ -24,16 +24,16 @@ function CardServices() {
   <div className="blog-card "> 
     <div className="meta">
       <div className="photo">
-      <img className="img-cs" src="../images/k1.jpg"  path="/about" alt=""/>
+      <img className="img-cs" src="../images/woman22.jpg"  path="/about" alt=""/>
       </div>
       <ul className="details">
         <li className="author"></li> 
-        <li className="date">Aug. 24, 2015</li>
+        <li className="date">Excellent choice</li>
        
       </ul>
     </div>
     <div className="description">
-      <h1>Lorem ipsum</h1>
+      <h1>Service1</h1>
       {/* <h2>Opening a door to the future</h2> */}
       <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum 
       architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
@@ -47,16 +47,16 @@ function CardServices() {
   <div className="blog-card alt">
     <div className="meta">
       <div className="photo">
-      <img className="img-cs" src="../images/k2.jpg"  path="/about" alt=""/>
+      <img className="img-cs" src="../images/m4.jpg"  path="/about" alt=""/>
       </div>
       <ul className="details">
         <li className="author"></li>
-        <li className="date">July. 15, 2015</li>
+        <li className="date">Best offer</li>
        
       </ul>
     </div>
     <div className="description">
-    <h1>Lorem ipsum</h1>
+    <h1>Service2</h1>
       {/* <h2>Opening a door to the future</h2> */}
       <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum 
       architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
@@ -67,16 +67,16 @@ function CardServices() {
   <div className="blog-card">
     <div className="meta">
       <div className="photo">
-      <img className="img-cs" src="../images/k3.jpg"  path="/about" alt=""/>
+      <img className="img-cs" src="../images/m6.jpg"  path="/about" alt=""/>
       </div>
       <ul className="details">
         <li className="author"></li>
-        <li className="date">Aug. 24, 2015</li>
+        <li className="date">Come today</li>
        
       </ul>
     </div>
     <div className="description">
-      <h1>Lorem ipsum</h1>
+      <h1>Service3</h1>
       {/* <h2>Opening a door to the future</h2> */}
      
       <p className="read-more">
@@ -88,17 +88,17 @@ function CardServices() {
   <div className="blog-card alt">
     <div className="meta">
       <div className="photo">
-      <img className="img-cs" src="../images/k4.jpg"  path="/about" alt=""/>
+      <img className="img-cs" src="../images/m1.jpg"  path="/about" alt=""/>
       </div>
       <ul className="details">
         <li className="author"></li>
-        <li className="date">July. 15, 2015</li>
+        <li className="date">Order now</li>
        
       </ul>
     </div>
     <div className="description">
-      <h1>Lorem ipsum</h1>
-      <h2>Java is not the same as JavaScript</h2>
+      <h1>Service4</h1>
+      {/* <h2>Java is not the same as JavaScript</h2> */}
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum 
       architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
       <p className="read-more">

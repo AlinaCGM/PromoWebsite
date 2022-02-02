@@ -3,10 +3,15 @@
   }
   
  .cardservices-box {
-   width: 90%;
+  width: 100%;
+  padding-bottom:2rem;
    margin: auto;
-   background-color:#f5e9ea;
-   padding: 4rem 0 2rem 0;
+   background-image:url(../images/relax7.jpg);
+   background-repeat: no-repeat;
+   background-position: bottom;
+   background-size: cover;
+   background-attachment: fixed;
+  
  }
   
   $color_white: #fff;
@@ -14,15 +19,15 @@
   $color_grey: #e2e2e2;
   $color_grey_dark: #a2a2a2;
   
- .sakura {
-   height:200px;
-  background-image: url(../images/sakura.png); 
+//  .sakura {
+//    height:200px;
+//   background-image: url(../images/sakura.png); 
 
-  background-size: 30%;
-  background-repeat: no-repeat;
-  background-position: right;
+//   background-size: 30%;
+//   background-repeat: no-repeat;
+//   background-position: right;
 
- }
+//  }
  .sakura-text {
    font-size: 32px;
    color:rgb(136, 95, 129);
@@ -153,7 +158,7 @@
       .read-more {
         text-align: right;
         a {
-          color: $color_prime;
+          color: red;
           display: inline-block;
           position: relative;
           &:after {
@@ -181,7 +186,7 @@
           content: "";
           position: absolute;
           height: 5px;
-          background: $color_prime;
+          background: rgb(68, 122, 92);
           width: 35px;
           top: -0.75rem;
           border-radius: 3px;

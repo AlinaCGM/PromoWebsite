@@ -3,8 +3,8 @@ import '../../App.css';
 import CardServices from "../CardServices";
 // import ImageTextServices from "../ImageTextServices";
 import CardServicesMassage from "../CardServicesMassage";
-import HeroSection from '../Herosection.js';
-import Footer from "../Footer";
+// import HeroSection from '../Herosection.js';
+// import Footer from "../Footer";
 
  function Services() {
   return (
@@ -13,10 +13,10 @@ import Footer from "../Footer";
 
   </div>
   {/* <ImageTextServices/> */}
-  <HeroSection/>
+  {/* <HeroSection/> */}
   <CardServices/>
   <CardServicesMassage/>
- <Footer/>
+ {/* <Footer/> */}
   
   
   </div> 

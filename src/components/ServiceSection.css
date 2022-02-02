@@ -21,13 +21,24 @@
 }
 .title_services {
   font-size: 20px;
-  color: rgb(248, 246, 246);
+  color: rgb(44, 23, 32);
   font-family: 'Cormorant Garamond', serif;
   font-weight: 600;
+  -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(10px);
 }
-.title_content {
-    color: rgb(233, 223, 223);
+.second-title-services {
+    color: rgb(39, 20, 28);
+    text-align: center;
+    font-size: 22px;
+    line-height: 2rem;
+    letter-spacing: 1px;
+}
+.title_content { 
+    color: rgb(39, 20, 28);
     font-family: 'Cormorant Garamond', serif;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(10px);
 }
 .golden-text {
    height: 100px;
@@ -37,8 +48,9 @@
  
 }
 .text-center {
-    color:rgb(77, 69, 60);
+    color:rgb(90, 52, 68);
     font-family: 'Cormorant Garamond', serif;
+ 
 }
 .one, .two, .three {
     width:100%;
@@ -46,7 +58,7 @@
 }
 
 .first{
-    color: rgb(233, 223, 223);
+    color: rgb(90, 52, 68);
     background-color: transparent;
     padding: 1rem;
     margin: 1rem;
@@ -78,7 +90,7 @@
     bottom:10px;
     right:10px;
     text-decoration: none;
-    color:#f0d1d1;
+    color:rgb(90, 52, 68);
     background-color:rgb(228, 176, 176, 0.5) ;
     border: 1px solid rgb(204, 169, 169);
     border-radius: 5px;

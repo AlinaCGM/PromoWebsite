@@ -26,28 +26,28 @@ function Consultation() {
                   <div class="row content-cons">
                             <div class=" underline"> <h1 className=" consultation-title">FREE CONSULTATION</h1>
                             </div>
-                           <div class="row common-col ">
+                           {/* <div class="row common-col ">
                              <div class="col-6 col-md-6 col-lg-6 name ">
-                              <p className="consult-text" >NAME</p> 
+                              <p className="consult-text" ></p> 
                              </div>
                              <div class="col-6 col-md-6 col-lg-6 last ">
-                             <p className="consult-text">LAST NAME</p> 
+                             <p className="consult-text"></p> 
                              </div>
                             
                            </div>
 
                            <div class="row common-col">
                            <div class="col col-md-12 col-lg-12 em ">
-                           <p className="consult-text">EMAIL ADDRESS</p> 
+                           <p className="consult-text"></p> 
                              </div>
                              
                            </div>
                            <div class="row common-col column-last">
                            <div class="col col-md-12 col-lg-12 mes ">
-                           <p className="consult-text">YOUR MESSAGE</p>  
+                           <p className="consult-text"></p>  
                              </div>
                              
-                          </div>
+                          </div> */}
                 </div>
               </div>
               </div>

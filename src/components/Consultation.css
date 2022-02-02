@@ -14,8 +14,8 @@
 }
 .common-col {
   width: 100%;
-  height: 70px;
-  
+  height: 70px; 
+
 }
 
 .column-last {
@@ -25,11 +25,15 @@
   padding-top: 4rem;
 }
 .consultation-title {
+  color: rgb(44, 23, 32);
+  height:40px;
   font-size: 22px;
+  letter-spacing: 0.5px;
 }
 .underline {
   height: 110px;
 }
+
 
 @media (min-width: 425px) {
   .consultation {
@@ -47,14 +51,7 @@
     height: 120px;
   }
 }
-/* @media (min-width: 850px) {
-  .consultation {
-    height: 60vh;
-  }
-  .underline {
-    height: 150px;
-  }
-} */
+
 
 @media (min-width: 768px) {
   .consultation {
@@ -80,6 +77,10 @@
   .underline {
     height: 140px;
   }
+  .consultation-title {
+    height: 20px;
+  }
+
 }
 @media (min-width: 1440px) {
   .consultation {

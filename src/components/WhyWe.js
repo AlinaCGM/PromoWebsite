@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import './HomeImages.css';
+import './WhyWe.css';
 import 'bootstrap/dist/css/bootstrap.css';
-//  import FadeInSection from './FadeInSection';
 
-function HomeImages() {
+
+function WhyWe() {
   const location = useLocation();
   useEffect(() => {
     if (location.hash) {
@@ -17,7 +17,7 @@ function HomeImages() {
     }
   }, [location]);
   return (
-    // <FadeInSection>
+    
     <div id="homeImages" className=" homeImages-container flex ">
 
 
@@ -25,7 +25,7 @@ function HomeImages() {
               <div class="container-homeImages">
                   <div class="row ">
                    <div class=" underline">
-                      <div > <h1 className=" golden-text homeImages-title">WHY WE ARE THE BEST</h1>
+                      <div > <h1 className=" homeImages-title">WHY WE ARE THE BEST</h1>
                       </div>
                       </div>
                            <div class="row">
@@ -69,4 +69,4 @@ function HomeImages() {
        
  
   
-export default HomeImages;
+export default WhyWe;

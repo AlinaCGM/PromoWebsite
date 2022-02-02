@@ -1,29 +1,32 @@
 .price  {
     background-color: #eeddd3;
-    color:rgb(139, 118, 131);
-    width: 90%;
-    height:145vh;
+    color: rgb(39, 20, 28);
+    width: 100%;
+    height:auto;
     margin: auto;
     margin-bottom: 2rem;
+    padding-bottom: 2rem;
 } 
 
 /* .container-price {
     width: 100%; 
-    height:100vh;
+    height:100vh; 
     margin: auto;
 } */
 .price-col{
     
     background-color: #fff1e6;
-    width: 100%;
-    height: 300px;
+    width: 80%;
+    height: auto;
     margin: auto;
     margin-top: 1rem;
    
 }
 .price-title {
-    font-size:22px;
-    font-family: 'Cormorant Garamond', serif;
+    color: rgb(44, 23, 32);
+    height:40px;
+    font-size: 22px;
+    letter-spacing: 0.5px;
 }
 .underline1 {
 
@@ -39,7 +42,7 @@
 .title_price {
     text-align: center;
     font-size: 18px;
-
+    letter-spacing: 1px;
     height: 60px ;
     background-image: url(../images/heart.png);
     background-size: 45%;
@@ -55,6 +58,8 @@
     text-align: center;
     font-size: 12px;
     line-height: 1rem;
+    letter-spacing: 1px;
+    
 }
 
 .but_price {
@@ -62,7 +67,7 @@
     
 }
 .link_price {
-    color:rgb(139, 118, 131);
+    color: rgb(39, 20, 28);
     text-decoration: none;
 }
 @media (min-width:375px) {
@@ -73,24 +78,20 @@
     }
 }
 @media (min-width:768px) {
-    .price  {
-        background-color: #eeddd3;
-        color:rgb(139, 118, 131);
-        width: 90%;
+    /* .price  {
         height:80vh;
-        margin: auto;
     } 
-  
+   */
     .price-col{
     
-        width: 100%;
-        height: 400px;
+        width: 80%;
+        height: auto;
         margin: auto;
         margin-top: 1rem;
         margin-bottom:1rem
     }
     .but_price {
-        width: 30%;  
+        width: 40%;  
     }
     .price-title {
     
@@ -103,41 +104,12 @@
 }
 
 
+
 @media (min-width:1024px) {
-    .price  {
-        background-color: #eeddd3;
-        color:rgb(139, 118, 131);
-        width: 90%;
-        height:65vh;
-        margin: auto;
+    /* .price  {
+        height:8autop;
         margin-top: 15rem;
-    } 
-    .price-title {
-    
-        height: 20px;
-    }
-    .underline1 {
- 
-        height: 150px;
-    }
-    .price-col{
-    
-        width: 100%;
-        height: 300px;
-        margin: auto;
-        margin-top: 1rem;
-        margin-bottom:1rem
-      
-    }
-}
-@media (min-width:1024px) {
-    .price  {
-       
-        width: 90%;
-        height:85vh;
-        margin: auto;
-        margin-top: 15rem;
-    } 
+    }  */
     .price-title {
         font-size: 26px;
         height: 20px;
@@ -147,8 +119,8 @@
     }
     .price-col{
     
-        width: 100%;
-        height: 400px;
+        width: 80%;
+        height: auto;
         margin: auto;
         
         margin-bottom:1rem
@@ -164,27 +136,23 @@
         font-size: 18px; 
         line-height:2rem; 
     } 
+    .but_price {
+        width: 50%;  
+    }
 }
 @media (min-width:1440px) {
     .price  {
-       
-        width: 90%;
         height:75vh;
-        margin: auto;
-        margin-top: 15rem;
     } 
     .price-title {
         font-size: 26px;
-        height: 20px;
     }
     .underline1 {
         height: 200px;
     }
     .price-col{
-    
-        width: 100%;
+        width:80%;
         height: 400px;
-        margin: auto;
         margin-top: 1rem;
         margin-bottom:1rem
       
@@ -202,9 +170,7 @@
 }
 @media (min-width:1700px) {
     .price  {
-      
         height:80vh;
-        margin: auto;
         margin-top: 13rem;
     } 
    
@@ -213,7 +179,7 @@
     }
     .price-col{
     
-        width: 100%;
+        width: 80%;
         height: 400px;
         margin: auto;
         margin-top: 1rem;
@@ -224,10 +190,7 @@
 }
 @media (min-width:2560px) {
     .price  {
-       
-        width: 90%;
         height:70vh;
-        margin: auto;
         margin-top: 15rem;
     } 
     .price-title {
@@ -239,7 +202,7 @@
     }
     .price-col{
     
-        width: 100%;
+        width: 80%;
         height: 600px;
         margin: auto;
         margin-top: 1rem;

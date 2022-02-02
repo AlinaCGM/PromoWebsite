@@ -3,7 +3,6 @@ import { useLocation } from "react-router-dom";
 import './ImageTextServices.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
-// import FadeInSection from './FadeInSection';
 
 function ImageTextServices() {
   const location = useLocation();

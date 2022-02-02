@@ -3,15 +3,12 @@ import { Card } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './ServiceSection.css';
 import { Link } from "react-router-dom";
-// import './Button.css';
-// import Button from 'react-bootstrap/Button';
- import FadeInSection from "./FadeInSection";
 
  
 
 const ServiceSection = () => {
   return ( 
-     <FadeInSection>
+  
     <div class="cont-services icon-box" >
     
     <div class="row m-auto  ">
@@ -19,7 +16,7 @@ const ServiceSection = () => {
        <h1 className="golden-text align-top ">MASSAGE THERAPHY CENTER</h1>
        
      </div> 
-     <p className=" mx-auto text-center">Lorem ipsum dolor sit amet<br/>  consectetur adipisicing elit. Ad eum dolorum</p>
+     <p className=" mx-auto text-center second-title-services">Lorem ipsum dolor sit amet<br/>  consectetur adipisicing elit. Ad eum dolorum</p>
      
     </div>
     
@@ -28,8 +25,8 @@ const ServiceSection = () => {
     <div className="col  d-flex justify-content-between "> 
 <Card className="first col one "  > 
   
-  <Card.Body >
-    <h2 className="title_services">SERVICE 1</h2>
+  <Card.Body  >
+    <h2 className="title_services text-left">SERVICE 1</h2>
     <p className="title_content">Lorem ipsum </p>
   </Card.Body>
  <Link to="/services" className="link_services">more</Link>
@@ -40,7 +37,7 @@ const ServiceSection = () => {
 <Card className="first col two"  >
 
   <Card.Body>
-    <h2 className="title_services">SERVICE 2</h2>
+    <h2 className="title_services text-left">SERVICE 2</h2>
     <p className="title_content">Lorem ipsum </p>
   </Card.Body>
  <Link to="/services"  className="link_services">more</Link> 
@@ -61,8 +58,7 @@ const ServiceSection = () => {
 
        </div>
        </div>
-
-      </FadeInSection>    
+ 
   );
 };
 

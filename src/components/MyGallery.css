@@ -1,13 +1,18 @@
 .mygallery {
-   
-    background-color: #f0f8f1;
-    width: 90%;
-    margin:auto;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-    
+
+  width: 100%;
+  
+   margin: auto;
+   background-image:url(../images/relax18.jpg);
+   background-repeat: no-repeat;
+   background-position: bottom;
+   background-size: cover;
     height: auto;
+    padding-bottom: 1rem;
 } 
+.size-smaller {
+  width:80%;
+}
 .title-gallery {
   background-color: none;
   width: 100%;
@@ -17,5 +22,14 @@
 .card_inside {
     margin: auto;
     margin-bottom: 1rem;
+    height: 200px; /* [1.1] Set it as per your need */
+    overflow: hidden;
 } 
-  
+.card_inside img {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.card_inside:hover img {
+  transform: scale(1.5);
+}

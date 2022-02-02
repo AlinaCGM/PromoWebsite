@@ -3,8 +3,8 @@
 import HeroSection from '../Herosection.js';
 import ServiceSection from '../ServiceSection.js';
 import Footer from "../Footer";
-import HomeImages from "../HomeImages";
-import MassageHome from "../MassageHome";
+import WhyWe from "../WhyWe";
+import Stone from "../Stone";
 import PriceTable from "../PriceTable";
 import Contact1 from "../Consultation1";
 
@@ -17,8 +17,8 @@ function Home() {
     <>
     <HeroSection/>
     <ServiceSection/>
-    <MassageHome/>
-    <HomeImages/>
+    <Stone/>
+    <WhyWe/>
     <PriceTable/>
     <Contact1/>    
     <Footer/>
