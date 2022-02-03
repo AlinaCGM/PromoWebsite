@@ -22,6 +22,8 @@ function  HeroSection () {
           <Link to="/services" className="link_hero"> 
           <p className="but_text text-center"><span>More</span></p>
           </Link> 
+          
+          
     
             </div> 
 

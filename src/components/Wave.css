@@ -1,0 +1,8 @@
+.wave {
+    border:1px solid red;
+    width:100%;
+    
+    height: auto;
+      margin-top:-10rem; 
+     z-index: 100; 
+}

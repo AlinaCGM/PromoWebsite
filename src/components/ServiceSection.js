@@ -10,7 +10,6 @@ const ServiceSection = () => {
   return ( 
   
     <div class="cont-services icon-box" >
-    
     <div class="row m-auto  ">
     <div className=" col-12  golden-el">
        <h1 className="golden-text align-top ">MASSAGE THERAPHY CENTER</h1>

@@ -6,6 +6,7 @@ import Footer from "../Footer";
 import WhyWe from "../WhyWe";
 import Stone from "../Stone";
 import PriceTable from "../PriceTable";
+// import Wave from "../Wave";
 import Contact1 from "../Consultation1";
 
 
@@ -16,6 +17,7 @@ function Home() {
   return (
     <>
     <HeroSection/>
+    {/* <Wave/> */}
     <ServiceSection/>
     <Stone/>
     <WhyWe/>
