@@ -1,7 +1,8 @@
 import React from 'react';
 import '../../App.css';
 import AboutP from "../AboutP";
-import Footer from "../Footer";
+import AboutStuff from "../AboutStuff";
+// import Footer from "../Footer";
 // import HeroSection from '../Herosection.js';
 
 export default function About() {
@@ -10,7 +11,8 @@ export default function About() {
   <div className='about' id="about"></div>
   {/* <HeroSection/> */}
   <AboutP/>
-  <Footer/>
+  <AboutStuff/>
+  {/* <Footer/> */}
   </div> 
   );
 }

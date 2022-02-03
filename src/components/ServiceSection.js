@@ -12,12 +12,12 @@ const ServiceSection = () => {
     <div class="cont-services icon-box" >
     <div class="row m-auto  ">
     <div className=" col-12  golden-el">
-       <h1 className="golden-text align-top ">MASSAGE THERAPHY CENTER</h1>
+        <p className="golden-text align-top mx-auto mt-5 text-center second-title-services">A pampering refuge of calm
+
+and serenity for the body, mind, and spirit<br/>  consectetur adipisicing elit. Ad eum dolorum</p> 
        
      </div> 
-     <p className=" mx-auto text-center second-title-services">Lorem ipsum dolor sit amet<br/>  consectetur adipisicing elit. Ad eum dolorum</p>
-     
-    </div>
+     </div>
     
     
     <div class="row align-items-center ">

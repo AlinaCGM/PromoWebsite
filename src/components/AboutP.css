@@ -1,65 +1,89 @@
 .servicesAbout-container {
 
     width: 100%;
-   
+    background-color: rgb(243, 237, 229);
     position: relative;
-    background-image: url(../images/pawel-czerwinski-qztBRIrU1FM-unsplash.jpg);
+    /* background-image: url(../images//relax16.jpg);
     background-size:cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     height: auto;
     margin: auto;
+    margin-bottom: 2rem;
     color: black;
     z-index: 1;
 
 }
-.second-about-container {
+
+.img-here {
+    width:90%;
+    height:400px;
+    background-image: url(../images/relax7_ccexpress.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* .second-about-container {
     width:80%;
   
     margin: auto;
-}
+} */
 
 .decorAboutTitle {
     padding-bottom: 1rem;
-    font-size: 32px;
+    font-size: 22px;
     color: rgb(44, 23, 32);
     letter-spacing: 0.5px; 
 }
 .informationServices-about {
-    font-size: 14px;
+    font-size: 12px;
     font-family: 'Playfair Display', serif;
-    background-color: rgb(243, 226, 241);
+    background-color: none;
     color: rgb(87, 53, 75);
     letter-spacing: 0.5px;
-    line-height: 2rem;  
+    line-height: 1.2rem;  
     padding: 2rem;
     text-align: justify;
 
 }
 
-.colum-about{
- 
-  display:inline-block;
-text-align: center;
+.table-aboutPage {
+    width:80%;
+    height: auto;
+    margin: auto;
+    border:1px solid red;
+}
+tr,td {
+    border:1px solid rgb(0, 255, 55);
+}
+@media (min-width:1024px) {
+    .informationServices-about {
+        font-size: 18px; 
+        line-height:2rem; 
+    
+    }
+}
 
-} 
 
-/* .first-hero {
-    object-fit: cover;
-    width:100%;
-    height:40vh;
 
-} */
- /* .circle {
-     margin-top: 1rem;
-     width: 70%;
-  
- } */
+
+
+
+
+
+
+
+
+
+
+
+
+
 .colum-img1 {
     width: 50%;
     height: auto;
-   
     background-image: url(../images/stuff1_ccexpress.jpeg);
-    background-size: 50% ;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
     /* background-clip: content-box; */
@@ -70,12 +94,12 @@ text-align: center;
     width: 50%;
     height: auto;
     background-image: url(../images/stuff2_ccexpress.jpeg);
-    background-size: 50%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-
+/* 
   .small-about {
     width: 50%;
     height: auto;
@@ -83,18 +107,18 @@ text-align: center;
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: center;
-  }
+  } */
 
   .colum-img3 {
     width: 50%;
     height: auto;
     background-image: url(../images/stuff_ccexpress.jpeg);
-    background-size: 50%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.colum-img4 {
+/* .colum-img4 {
     width: 50%;
     height: auto;
     background-image: url(../images/rsz_1rsz_michael-dagonakis-c-sbcqkapls-unsplash.jpg);
@@ -114,17 +138,12 @@ text-align: center;
   h3 {
       
     font-family: 'Playfair Display', serif;
- } 
+ }  */
 
 
- /* @media (min-width: 768px)  {
 
-    .small-about {
-        display:none;
-    }
-}   */
 
-@media (min-width: 1024px)  {
+/* @media (min-width: 1024px)  {
 
     .small-about,  .small-about2 {
         display:none;
@@ -153,9 +172,7 @@ text-align: center;
     }
 
 }  
-  /* .last {
-      margin-bottom: 1rem;
-  } */
+
 
   @media (min-width: 2560px)  {
     .decorAboutTitle {
@@ -172,7 +189,7 @@ text-align: center;
         line-height: 6rem; 
     }
 
-}  
+}   */
   /* .last {
       margin-bottom: 10rem;
   } */

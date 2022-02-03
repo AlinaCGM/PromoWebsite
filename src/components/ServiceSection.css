@@ -9,7 +9,7 @@
 
 .golden-el {   
      width:100%;
-    height:auto;
+    height:200px;
     margin: auto;
     margin-bottom: 1rem;
     background-image: url(../images/pink2.png); 
@@ -17,15 +17,16 @@
     background-repeat: no-repeat;
     background-position: top right;
     
+    
 }
 .title_services {
   font-size: 20px;
   color: rgb(44, 23, 32);
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Kanit', sans-serif;
   font-weight: 600;
   -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(10px);
-}
+} 
 .second-title-services {
     color: rgb(39, 20, 28);
     text-align: center;
@@ -42,9 +43,9 @@
 .golden-text {
    height: 100px;
    color:rgb(109, 11, 65);
-   font-size: 32px;
-   text-shadow: 2px 2px rgb(221, 200, 200);
- 
+   font-size: 22px;
+   
+   font-family: 'Kanit', sans-serif;
 }
 .text-center {
     color:rgb(90, 52, 68);

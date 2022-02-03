@@ -17,84 +17,25 @@ function AboutP() {
       window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
     }
   }, [location]);
-  return (
+  return ( 
     <div id="servicesAbout" className="servicesAbout-container flex ">
-    {/* <img className="first-hero" src="../images/woman22.jpg" path="/about" alt=""/> */}
-      <div className='second-about-container'>
-     <div className="decoraction-title"> <p className="decorAboutTitle text-center"> WHO WE ARE</p></div>
-
-    <div class="row pictures justify-content-center ">
-                <div class="col-12 col-md-6 col-lg-6 col-xl-6 colum-about colum-img1  ">
-                {/* <img className="  circle" src="../images/circle2.png" path="/about" alt=""/> */}
-               </div> 
-               <div class="col-12 col-md-6 col-lg-6 colum-about  ">
-               <p className="informationServices-about ">
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-               Sed malesuada molestie nulla, vel hendrerit nulla suscipit sed.
-                Donec diam leo, efficitur sit amet finibus ac.</p>  
-           
-               </div>  
-    </div>
+   <div className="decoraction-title"> <p className="decorAboutTitle text-center mt-5"> WHO WE ARE</p></div>
     
-    <div className="small-about col-12  colum-about ">
-    {/* <img className=" circle" src="../images/circle2.png" path="/about" alt=""/> */}
-    </div>
-    
-    
-    
-    <div class="row pictures justify-content-center ">
-    <div class="col-12 col-md-6 col-lg-6 col-xl-6 colum-about  ">
-               <p className="informationServices-about"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-               Sed malesuada molestie nulla, vel hendrerit nulla suscipit sed.
-                Donec diam leo, efficitur sit amet finibus ac.</p>
-           
-               </div> 
-    
-    
-           
-               <div class="col-12 col-md-6 col-lg-6 col-xl-6 colum-about colum-img2  last">
-                {/* <img className="  circle" src="../images/circle.png" path="/about" alt=""/>  */}
-               </div> 
-    </div>
-
-
-
-    <div class="row pictures justify-content-center ">
-                <div class="col-12 col-md-6 col-lg-6 col-xl-6 colum-about colum-img3  ">
-                 {/* <img className="  circle" src="../images/circle2.png" path="/about" alt=""/>  */}
-               </div> 
-               <div class="col-12 col-md-6 col-lg-6 col-xl-6 colum-about  ">
-               <p className="informationServices-about ">
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-               Sed malesuada molestie nulla, vel hendrerit nulla suscipit sed.
-                Donec diam leo, efficitur sit amet finibus ac.</p>  
-           
-               </div> 
-    </div>
-    
-    
-    <div className="small-about col-12  colum-about ">
-    {/* <img className=" circle" src="../images/circle2.png" path="/about" alt=""/> */}
-    </div>
-    
-    
-    
-    <div class="row pictures justify-content-center ">
-    <div class="col-12 col-md-6 col-lg-6 col-xl-6 colum-about  ">
-               <p className="informationServices-about"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-               Sed malesuada molestie nulla, vel hendrerit nulla suscipit sed.
-                Donec diam leo, efficitur sit amet finibus ac.</p>
-           
-               </div> 
-    
-    
-           
-               <div class="col-12 col-md-6 col-lg-6 col-xl-6 colum-about colum-img4  last">
-               {/* <img className=" circle" src="../images/circle.png" path="/about" alt=""/> */}
-               </div> 
-    </div>
-    
-    </div>
+     <div className='row d-flex justify-content-center'>
+       <div className='col-3 col-md-5 mx-auto informationServices-about'>"We make you look youthful, feel vibrant, 
+       and smell awesome."</div>
+       <div className='col-7 col-md-5 mx-auto informationServices-about'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Sed malesuada molestie nulla, vel hendrerit nulla suscipit sed. Donec diam leo, efficitur sit amet
+         finibus acLorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Sed malesuada molestie nulla, vel hendrerit nulla suscipit sed.</div>
+     </div>
+     <div className='row d-flex justify-content-center'>
+       <div className='col-10 mx-auto img-here mt-3'>
+       {/* <img className="image-aboutP" src="../images/woman22.jpg"  path="/about" alt=""/> */}
+       </div>
+      
+     </div>
+   
     </div>
          
          
