@@ -4,7 +4,7 @@ import CardServices from "../CardServices";
 // import ImageTextServices from "../ImageTextServices";
 import CardServicesMassage from "../CardServicesMassage";
 // import HeroSection from '../Herosection.js';
-// import Footer from "../Footer";
+ import Footer from "../Footer";
 
  function Services() {
   return (
@@ -16,7 +16,7 @@ import CardServicesMassage from "../CardServicesMassage";
   {/* <HeroSection/> */}
   <CardServices/>
   <CardServicesMassage/>
- {/* <Footer/> */}
+   <Footer/> 
   
   
   </div> 

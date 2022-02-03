@@ -2,7 +2,7 @@ import React from 'react';
 import '../../App.css';
 import AboutP from "../AboutP";
 import AboutStuff from "../AboutStuff";
-// import Footer from "../Footer";
+ import Footer from "../Footer";
 // import HeroSection from '../Herosection.js';
 
 export default function About() {
@@ -12,7 +12,7 @@ export default function About() {
   {/* <HeroSection/> */}
   <AboutP/>
   <AboutStuff/>
-  {/* <Footer/> */}
+   <Footer/> 
   </div> 
   );
 }

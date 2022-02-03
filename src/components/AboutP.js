@@ -19,10 +19,10 @@ function AboutP() {
   }, [location]);
   return ( 
     <div id="servicesAbout" className="servicesAbout-container flex ">
-   <div className="decoraction-title"> <p className="decorAboutTitle text-center mt-5"> WHO WE ARE</p></div>
+   <div className="decoraction-title"> <p className="decorAboutTitle text-center mt-5"> ABOUT US</p></div>
     
      <div className='row d-flex justify-content-center'>
-       <div className='col-3 col-md-5 mx-auto informationServices-about'>"We make you look youthful, feel vibrant, 
+       <div className='col-4 col-md-5 mx-auto informationServices-about text-center'>"We make you look youthful, feel vibrant, 
        and smell awesome."</div>
        <div className='col-7 col-md-5 mx-auto informationServices-about'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Sed malesuada molestie nulla, vel hendrerit nulla suscipit sed. Donec diam leo, efficitur sit amet

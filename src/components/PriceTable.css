@@ -10,7 +10,7 @@
 
 /* .container-price {
     width: 100%; 
-    height:100vh; 
+    height:100vh;  
     margin: auto;
 } */
 .price-col{
@@ -19,9 +19,11 @@
     width: 80%;
     height: auto;
     margin: auto;
-    margin-top: 1rem;
-   
+    
 }
+/* .allcolumns-price {
+  margin-top: -2rem;
+} */
 .price-title {
     color: rgb(44, 23, 32);
     height:40px;

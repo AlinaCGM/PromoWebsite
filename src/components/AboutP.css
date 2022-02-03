@@ -3,9 +3,7 @@
     width: 100%;
     background-color: rgb(243, 237, 229);
     position: relative;
-    /* background-image: url(../images//relax16.jpg);
-    background-size:cover;
-    background-repeat: no-repeat; */
+ 
     height: auto;
     margin: auto;
     margin-bottom: 2rem;
@@ -23,11 +21,6 @@
     background-position: center;
 }
 
-/* .second-about-container {
-    width:80%;
-  
-    margin: auto;
-} */
 
 .decorAboutTitle {
     padding-bottom: 1rem;
@@ -36,26 +29,19 @@
     letter-spacing: 0.5px; 
 }
 .informationServices-about {
+   
     font-size: 12px;
     font-family: 'Playfair Display', serif;
     background-color: none;
     color: rgb(87, 53, 75);
     letter-spacing: 0.5px;
     line-height: 1.2rem;  
-    padding: 2rem;
+   
     text-align: justify;
 
 }
 
-.table-aboutPage {
-    width:80%;
-    height: auto;
-    margin: auto;
-    border:1px solid red;
-}
-tr,td {
-    border:1px solid rgb(0, 255, 55);
-}
+
 @media (min-width:1024px) {
     .informationServices-about {
         font-size: 18px; 
