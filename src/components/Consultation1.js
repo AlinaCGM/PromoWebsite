@@ -36,7 +36,7 @@ const Contact1 = () => {
           <div class="row content-cons">
             <div class=" underline">
               {" "}
-              <h1 className=" consultation-title">FREE CONSULTATION</h1>
+              <h1 className="text-center sakura-text pt-5 consultation-title">FREE CONSULTATION</h1>
             </div>
             <Form onSubmit={handleOnSubmit}>
               <Form.Group controlId="exampleForm.ControlInput1" id="contactus">

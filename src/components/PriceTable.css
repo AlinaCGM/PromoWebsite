@@ -8,11 +8,7 @@
     padding-bottom: 2rem;
 } 
 
-/* .container-price {
-    width: 100%; 
-    height:100vh;  
-    margin: auto;
-} */
+
 .price-col{
     
     background-color: #fff1e6;
@@ -21,14 +17,13 @@
     margin: auto;
     
 }
-/* .allcolumns-price {
-  margin-top: -2rem;
-} */
+
 .price-title {
     color: rgb(44, 23, 32);
     height:40px;
     font-size: 22px;
     letter-spacing: 0.5px;
+    font-family: 'Cormorant Garamond', serif;
 }
 .underline1 {
 
@@ -49,7 +44,10 @@
     background-image: url(../images/heart.png);
     background-size: 45%;
     background-repeat: no-repeat;
-    background-position: bottom;}
+    background-position: bottom;
+    font-family: 'Cormorant Garamond', serif;
+}
+  
    
 .digits_price {
     text-align: center;
@@ -61,6 +59,7 @@
     font-size: 12px;
     line-height: 1rem;
     letter-spacing: 1px;
+    font-family: 'Cormorant Garamond', serif;
     
 }
 

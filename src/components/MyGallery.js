@@ -10,7 +10,7 @@ export default function MyGallery() {
   return (
      
     <div className="mygallery" id="mygallery">
-      <div className="decoraction-title"> <p className="decorAboutTitle text-center"> GALLERY</p></div>
+      <div className="decoraction-title"> <p className="text-center sakura-text pt-5 decorAboutTitle text-center"> GALLERY</p></div>
        <div className="row size-smaller"> 
        
        

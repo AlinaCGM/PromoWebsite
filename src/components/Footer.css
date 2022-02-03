@@ -57,15 +57,12 @@
   .social-icon-link {
     color: #fff;
     font-size: 24px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cormorant Garamond', serif;
     
   }
 
   @media (min-width:768px) {
-    /* .footer-container {
-      height: 40vh; 
-    }
-     */
+    
     .img_logo {  
       top:30%;
       right: 4rem; 
@@ -136,7 +133,7 @@
     .social-icon-link {
       color: #fff;
       font-size: 24px;
-      font-family: 'Playfair Display', serif;
+      font-family: 'Cormorant Garamond', serif;
       
     }
   }

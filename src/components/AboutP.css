@@ -31,7 +31,7 @@
 .informationServices-about {
    
     font-size: 12px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cormorant Garamond', serif;
     background-color: none;
     color: rgb(87, 53, 75);
     letter-spacing: 0.5px;
@@ -50,30 +50,13 @@
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .colum-img1 {
     width: 50%;
     height: auto;
     background-image: url(../images/stuff1_ccexpress.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position:center;
-    /* background-clip: content-box; */
-   
+    background-position:center; 
 }
 
 .colum-img2 {
@@ -85,15 +68,6 @@
     background-position: center;
 }
 
-/* 
-  .small-about {
-    width: 50%;
-    height: auto;
-    background-image: url(../images/stuff3_ccexpress.jpeg);
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
-  } */
 
   .colum-img3 {
     width: 50%;
@@ -104,78 +78,3 @@
     background-position: center;
 }
 
-/* .colum-img4 {
-    width: 50%;
-    height: auto;
-    background-image: url(../images/rsz_1rsz_michael-dagonakis-c-sbcqkapls-unsplash.jpg);
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-
-  .small-about2 {
-    background-image: url(../images/rsz_m-brauer-yeymnafuyvm-unsplash_ccexpress.jpeg);
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-
-  h3 {
-      
-    font-family: 'Playfair Display', serif;
- }  */
-
-
-
-
-/* @media (min-width: 1024px)  {
-
-    .small-about,  .small-about2 {
-        display:none;
-    }
-    .informationServices-about {
-      
-        font-size: 20px;
-    
-        letter-spacing: 0.5px;
-        line-height: 2rem; 
-        height: auto;
-    } 
-}  
-@media (min-width: 1400px)  {
-    .decorAboutTitle {
-        padding-top:4rem;
-    }
-    
-    .small-about, .small-about2 {
-        display:none;
-    } 
-    .informationServices-about {
-   
-        font-size: 24px;
-        line-height: 3.5rem; 
-    }
-
-}  
-
-
-  @media (min-width: 2560px)  {
-    .decorAboutTitle {
-        padding-top:8rem;
-        font-size: 62px;
-    }
-    
-    .small-about, .small-about2 {
-        display:none;
-    } 
-    .informationServices-about {
-        padding-top: 10rem;
-        font-size: 44px;
-        line-height: 6rem; 
-    }
-
-}   */
-  /* .last {
-      margin-bottom: 10rem;
-  } */

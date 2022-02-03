@@ -17,10 +17,11 @@ function CardServices() {
       window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
     }
   }, [location]);
-  return (
+  return ( 
 
 <div id="" className=" cardservices-box">
- <div className="sakura"> <p className="text-center sakura-text">WHAT WE OFFER</p> </div>
+ <div className="sakura"> <p className="text-center sakura-text pt-5">WHAT WE OFFER</p> </div>
+ <div className='secondbox'>
   <div className="blog-card "> 
     <div className="meta">
       <div className="photo">
@@ -108,7 +109,7 @@ function CardServices() {
   </div>
 
 
-
+</div>
 </div>
      
      

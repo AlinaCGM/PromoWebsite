@@ -25,7 +25,7 @@ function WhyWe() {
               <div class="container-homeImages">
                   <div class="row ">
                    <div class=" underline">
-                      <div > <h1 className=" homeImages-title">WHY WE ARE THE BEST</h1>
+                      <div > <h1 className="text-center sakura-text pt-5 homeImages-title">WHY WE ARE THE BEST</h1>
                       </div>
                       </div>
                            <div class="row">

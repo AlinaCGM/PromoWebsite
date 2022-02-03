@@ -10,7 +10,7 @@
 }
 .informationServices-about {
     font-size: 14px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cormorant Garamond', serif;
     color: rgb(43, 39, 39);
     letter-spacing: 0.5px;
     line-height: 2rem;  
@@ -81,7 +81,7 @@
   
     .informationServices-about {
         font-size: 12px;
-        font-family: 'Playfair Display', serif;;
+        font-family: 'Cormorant Garamond', serif;
         color: rgb(126, 125, 125);
         letter-spacing: 0.5px;
         line-height: 1.2rem; 
@@ -95,7 +95,7 @@
     
 }  
  h3 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cormorant Garamond', serif;
  }
 @media (min-width: 768px)  {
    .servicesAbout-container {
@@ -131,7 +131,7 @@
     .informationServices-about {
         /* margin: 5rem; */
         font-size: 14px;
-        font-family: 'Playfair Display', serif;
+        font-family: 'Cormorant Garamond', serif;
         color: rgb(43, 39, 39);
         letter-spacing: 0.5px;
         line-height: 1.5rem; 

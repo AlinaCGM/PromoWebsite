@@ -6,6 +6,8 @@
   width: 100%;
   padding-bottom:2rem;
    margin: auto;
+   padding-left: 1rem;
+   padding-right: 1rem;
    background-image:url(../images/relax7.jpg);
    background-repeat: no-repeat;
    background-position: bottom;
@@ -29,25 +31,27 @@
 
 //  }
  .sakura-text {
-   font-size: 32px;
-   color:rgb(136, 95, 129);
+   font-size: 22px;
+   color:rgb(77, 54, 73);
    
  }
   .blog-card {
    
     display: flex;
     flex-direction: column;
-    border: 1px solid #5ad67d;
+    
     margin: auto;
     box-shadow: 0 3px 7px -1px rgba(#000, .1);
     margin-bottom: 1.6%;
     background: $color_white;
     line-height: 1.4;
-    font-family: sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     border-radius: 5px;
      overflow: hidden;
    
     z-index: 0;
+
+   
     a {
       color: inherit;
       &:hover {
@@ -109,20 +113,20 @@
         display: inline-block;
       }
       .author:before {
-        font-family: FontAwesome;
+        font-family: 'Cormorant Garamond', serif;
         margin-right: 10px;
         content: "\f007";
       }
   
       .date:before {
-        font-family: FontAwesome;
+        font-family: 'Cormorant Garamond', serif;
         margin-right: 10px;
         content: "\f133";
       }
   
       .tags {
         ul:before {
-          font-family: FontAwesome;
+          font-family: 'Cormorant Garamond', serif;
           content: "\f02b";
           margin-right: 10px;
         }
@@ -141,11 +145,11 @@
       z-index: 1;
       h1,
       h2 {
-        font-family: Poppins, sans-serif;
+        font-family: 'Cormorant Garamond', serif;
       }
       h1 {
         line-height: 1;
-        margin: 0;
+        margin: 0; 
         font-size: 1.7rem;
       }
       h2 {
@@ -163,7 +167,7 @@
           position: relative;
           &:after {
             content: "\f061";
-            font-family: FontAwesome;
+            font-family: 'Cormorant Garamond', serif;
             margin-left: -10px;
             opacity: 0;
             vertical-align: middle;

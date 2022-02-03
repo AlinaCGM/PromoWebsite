@@ -14,19 +14,16 @@ function  HeroSection () {
       <div className="hero-container" id="hero">
       
      
-          <div>
+          <div className='hero-all-titles'>
           <h3 className="hero-title"> Welcome to our
           </h3>
           <h1 className="hero-title2"> MASSAGE THERAPHY CENTER</h1>
      
-          <Link to="/services" className="link_hero"> 
+          
+            </div> 
+            <Link to="/services" className="link_hero"> 
           <p className="but_text text-center"><span>More</span></p>
           </Link> 
-          
-          
-    
-            </div> 
-
          
       </div>
     );

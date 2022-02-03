@@ -24,7 +24,7 @@ function Consultation() {
       <div class="row pictures  align-bottom">
               <div class="container-consultation ">
                   <div class="row content-cons">
-                            <div class=" underline"> <h1 className=" consultation-title">FREE CONSULTATION</h1>
+                            <div class=" underline"> <h1 className="text-center sakura-text pt-5 consultation-title">FREE CONSULTATION</h1>
                             </div>
                            {/* <div class="row common-col ">
                              <div class="col-6 col-md-6 col-lg-6 name ">

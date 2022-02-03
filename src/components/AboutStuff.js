@@ -10,7 +10,7 @@ const  AboutStuff = () => {
     
     <div>
      <Zoom delay={900}>
-      <h4 className='title text-center color-goldy mb-5'>OUR TEAM</h4>
+      <h4 className='text-center sakura-text pt-5 title  color-goldy mb-5'>OUR TEAM</h4>
       </Zoom>
     <div className="aboutStuff-container " id="second">
       

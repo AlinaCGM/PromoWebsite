@@ -66,19 +66,25 @@
   box-shadow: 2px 2px rgb(156, 135, 135);
   
 }
+
+.hero-all-titles {
+  position: absolute;
+  top:5rem;
+  left:1rem;
+}
  .hero-title {
-     position: absolute;
+     
      color: rgb(102, 60, 78);
-     top:20%;
+     /* top:4rem; */
      left: 5%;
      font-size:22px;
      font-family: 'Gwendolyn', cursive;
 
  }
  .hero-title2 { 
-  position: absolute;
+  
   color: rgb(160, 84, 116);
-  top:20%;
+  /* top:6rem; */
   left: 5%;
   font-size:22px;
   font-family: 'Kanit', sans-serif;
@@ -98,11 +104,11 @@
     } 
     .hero-title{ 
       font-size: 25px;
-      margin-top: 5%; 
+      /* margin-top: 1rem;  */
     }
     .hero-title2{ 
       font-size: 15px;
-      margin-top: 15%; 
+      /* margin-top: 1rem;  */
       font-weight: 600;
     }
     .but_hero {
@@ -126,11 +132,11 @@
    } 
    .hero-title{ 
      font-size: 35px;
-     margin-top: 5%; 
+     /* margin-top: 5%;  */
    }
    .hero-title2{ 
      font-size: 25px;
-     margin-top: 15%; 
+     /* margin-top: 15%;  */
      font-weight: 300;
    }
    .but_hero {
@@ -156,11 +162,11 @@
     } 
     .hero-title{ 
       font-size: 35px;
-      margin-top: 2%; 
+      /* margin-top: 2%;  */
     }
     .hero-title2{ 
       font-size: 35px;
-      margin-top: 10%; 
+      /* margin-top: 10%;  */
       font-weight: 300;
     }
     .but_hero {
@@ -189,11 +195,11 @@
 
   .hero-title{ 
     font-size: 30px;
-    margin-top: 10%; 
+    /* margin-top: 10%;  */
   }
   .hero-title2{ 
     font-size: 40px;
-    margin-top: 15%; 
+    /* margin-top: 15%;  */
   }
     .but_hero {
       position: absolute;
@@ -219,12 +225,12 @@
 
     .hero-title{
       font-size: 52px;
-      margin-top: 5%; 
+      /* margin-top: 5%;  */
      
     }
     .hero-title2{
       font-size: 42px;
-      margin-top: 15%; 
+      /* margin-top: 15%;  */
       font-weight: 300;
      
     }
@@ -252,12 +258,12 @@
 
     .hero-title{
       font-size: 52px;
-      margin-top: 5%; 
+      /* margin-top: 5%;  */
      
     }
     .hero-title2{
       font-size: 62px;
-      margin-top: 10%; 
+      /* margin-top: 10%;  */
       font-weight: 300;
      
     }
@@ -280,12 +286,12 @@
 
     .hero-title{
       font-size: 120px;
-      margin-top: 5%; 
+      /* margin-top: 5%;  */
     }
     .hero-title2{
       font-size: 100px;
       
-      margin-top: 15%; 
+      /* margin-top: 15%;  */
     }
     .but_text {
       font-size:45px;

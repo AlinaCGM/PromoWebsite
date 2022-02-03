@@ -29,7 +29,7 @@ function PriceTable() {
    
     <div class="row  ">
                       <div className="underline1 col"> 
-                      <h1 className=" price-title ">OUR PRICE TABLE</h1></div>
+                      <h1 className="text-center sakura-text pt-5 price-title ">OUR PRICE TABLE</h1></div>
      </div>
      
      <div className="col-12  col-md-4 col-lg-4 d-flex "> 
